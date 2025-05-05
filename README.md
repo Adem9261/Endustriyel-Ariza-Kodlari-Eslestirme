@@ -1,0 +1,1 @@
+# Endustriyel-Hata-Kodlari-Eslestirme
