@@ -1,0 +1,436 @@
+Aciklama
+NTC sensor short circuit or open circuit
+Heater short circuit
+Heater continuously operating
+Continuous water intake error
+Water drainage error
+Motor triac short circuit
+Water level sensor error
+Motor open circuit
+Aqua stop failure
+Rinse sensor
+NTC short circuit or open circuit
+Heater short circuit
+Heater continuously operating
+Valve short circuit
+Pump not draining water
+Motor short circuit
+Water level sensor faulty
+Pump short circuit
+Door lock open circuit
+Door lock short circuit
+Motor windings open circuit
+Aqua stop failure
+Motor module or communication cable faulty
+Jet pump open circuit
+Flow meter open short circuit
+Rinse sensor short circuit
+Laundry remains foamy
+Unbalanced load in the machine
+Safe water drainage level activated
+Communication cable fault between LCD board and main board
+Door switch not working
+Load sensor not working
+Communication cable fault between control panel and main board
+Main board cannot be written or read
+Level sensor control and flow meter control
+Mains voltage out of limits
+NTC short circuit or open circuit
+Air duct open or flap closed
+No communication with D sensor
+Drying heater open circuit
+Overheating in the drum
+Overheating at condenser inlet
+Overheating at condenser outlet
+NTC short circuit or open circuit
+Heater short circuit
+Heater continuously operating
+Valve triac short circuit
+Pump not draining water
+Motor triac short circuit
+Water level sensor faulty
+Pump short circuit
+Door lock open circuit
+Door triac short circuit
+Motor triac open circuit
+Water source error + A2:A13
+Water temperature sensor error
+Water level error
+Water drainage error
+Water supply error
+Electrical error
+Water temperature high
+Water temperature low
+Water heating error
+Door open
+Water filling error
+Water pressure error
+Water leakage error
+Elevator height limit exceeded
+Door not opened or attempted to move with door open
+Elevator does not move in overload condition
+Brake not released or brake system error
+Jerk occurred during sudden stop
+Vibration during deceleration or stopping
+Elevator stopped moving and an error occurred in the control unit
+Power supply error in the elevator
+Elevator does not operate in excessively high temperature
+Cabin door lock system faulty
+Driver fan error
+Internal temperature error
+Control supply error
+Input phase error
+Capacitor voltage error
+Output phase error
+Driver overheating error
+DC overvoltage error
+AC overvoltage error
+DC overcurrent error
+AC overcurrent error
+Brake error
+Encoder error
+Low DC voltage error
+Line frequency error
+Internal communication error
+Software error
+Input signal error
+Output signal error
+Output overload error
+Driver overvoltage error
+Driver undervoltage error
+DC voltage error
+DC current error
+Driver overload error
+Internal thermal protection triggered
+External thermal protection triggered
+Motor protection triggered
+Temperature sensor error
+Fan failure
+Processor failure
+DC bus voltage high
+DC bus voltage low
+Input phase loss
+Input voltage high
+Input voltage low
+Output phase loss
+Output overcurrent
+DC current high
+Excessive torque
+Software error
+Hardware error
+Module error
+Communication error
+Power supply error
+Temperature sensor error
+Fan failure
+Input phase loss
+Input voltage high
+Input voltage low
+Output phase loss
+Output overcurrent
+DC current high
+Excessive torque
+Software error
+Hardware error
+Module error
+Communication error
+Power supply error
+Temperature sensor error
+Fan failure
+Input phase loss
+Input voltage high
+Input voltage low
+Output phase loss
+Output overcurrent
+DC current high
+Excessive torque
+Software error
+Hardware error
+Module error
+Communication error
+Power supply error
+High hydraulic oil temperature
+Low hydraulic oil level
+High hydraulic oil level
+Electrical failure
+Engine oil pressure low
+Engine oil pressure high
+Brake switch failure
+Low oil pressure
+High oil pressure
+Low fuel level
+Hydraulic oil filter clogged
+Hydraulic oil filter pressure low
+Hydraulic oil filter pressure high
+Fuel filter clogged
+Engine idle speed high
+Engine idle speed low
+Air filter clogged
+Air filter pressure low
+Air filter pressure high
+Hydraulic oil temperature high
+Hydraulic oil cooler clogged
+Water temperature high
+Water level low
+Water level high
+Fuel water separator clogged
+Oil cooler temperature high
+Oil cooler clogged
+Transmission oil temperature high
+Transmission oil level low
+Transmission oil level high
+Transmission oil filter clogged
+Transmission oil filter pressure low
+Transmission oil filter pressure high
+Left joystick failure
+Right joystick failure
+Left pedal failure
+Right pedal failure
+Left arm failure
+Right arm failure
+Left steering failure
+Right steering failure
+Steering drive motor failure
+Safety latch disabled
+Cabin safety lock failure
+Left cheek failure
+Right cheek failure
+Left mirror failure
+Right mirror failure
+Front window failure
+Overcurrent or overheating
+Low DC voltage or DC error
+Output phase loss or phase error
+Overspeed or excessive torque
+Encoder error
+Power supply error
+Communication error or control card error
+Brake error
+Low voltage or voltage fluctuation
+Air hose connection error
+Air pressure not detected
+Air pressure excessively high
+Air pressure excessively low
+Cuff issue
+Irregular heartbeat detected
+Operation error
+Air filter clogged
+Insufficient water level
+Medication tube clogged or medication tube connection error
+Nebulization nozzle clogged
+Operating time exceeded
+Medication tube empty or removed
+Error (usually specified with error code)
+Communication error
+Hard disk error
+Central processor error
+Input Output module error
+Software error
+Overcurrent
+Overvoltage
+Fan not working
+Internal overheating
+External overheating
+Driver error
+Does not affect operation clear the alarm
+Inspect load temperature perform repair
+During unit output sensor control inspect load perform repair
+During unit return sensor control inspect load perform repair
+Unit operating at low capacity perform necessary repair
+Unit operating at low capacity perform necessary repair
+Unit operating at low capacity perform necessary repair
+Multiple compartment unit
+Unit stopped to prevent damage repair immediately
+Unit stopped to prevent damage try again repair immediately
+Unit under another sensor control (alarm3-4) repair
+Unit stopped to prevent damage repair immediately
+Check compartment temperature with a thermometer
+Clear alarm repair after load
+Repair after load
+Motor did not start manually clear alarm and try again
+Try again in continuous operation mode repair as necessary
+Check belt tensions and water level control
+Top up engine oil perform repair as necessary
+Check fuel operate in continuous mode perform necessary repair
+Check load and perform necessary repair
+Check load perform necessary repair
+Unit stopped to prevent damage repair immediately
+Unit stopped to prevent damage repair immediately
+Check alternator charging repair immediately
+Check load perform necessary repair
+Self-test & pre-load test completed check other alarms
+Unit not defrosting check load perform repair
+Defrost damper stuck closed repair immediately
+Unit operating at low capacity or not working perform necessary repair
+Unit stopped to prevent damage repair immediately
+Check and record engine RPM perform necessary repair
+Check modulation circuit breaker and fuse perform repair
+Check operating relay circuit and perform repair
+Check incoming current inspect motor belts and perform repair
+Check and top up motor water level
+Current reversed voltage low or excessive load
+Unit operating at low temperature inspect load perform necessary repair
+Test high RPM
+Check water level and belt tension
+Temporary high temperature perform necessary repair
+Temporary high temperature perform necessary repair
+Check tank fuel clean fuel system if necessary
+Operating in low modulation circuit repair after load
+Load obstructing airflow check loading
+Multiple compartment sensor failure
+Clutch and belt slipping perform necessary repair
+Satellite communication not working
+Operation normal reset hours
+Second protection circuit failure repair
+Unable to heat perform repair
+Low circuit heating perform necessary repair
+Timeout shutdown during test does not affect operation
+Check engine RPM
+Check battery voltage and amperage
+Ammeter calibration test
+Unknown cause check fuel in particular try restarting
+Does not affect operation perform test clear alarms
+Check engine oil level top up oil
+Operating at low capacity inspect load perform repair
+Clear alarm try again inspect load perform repair
+Does not affect operation in any way
+Does not affect operation in any way
+Does not affect operation in any way
+Does not affect operation in any way
+Retest
+Processor may be faulty have it repaired
+Processor may be faulty have it repaired
+Processor may be faulty have it repaired
+Processor may be faulty have it repaired
+Clear alarm
+Compressor protection tripped have it repaired
+Compressor operating at excessive temperature repair quickly
+Stopped to prevent damage repair quickly
+Low heating capacity have it repaired
+Check other alarms and repair if unit stops
+If yellow alarm operating at low capacity perform repair
+Check voltage at 380V three-phase
+Check voltage
+Check sensor numbers (from menu)
+Check suction pressure
+Check circuit input
+Check circuit input
+For units transported on trains
+Test sensor
+Check with indicators
+Unit operating in low heating mode
+Unit operating in low heating mode
+Unit operating at low capacity
+Alarm due to compartment door left open for too long close door and clear alarm
+High output pressure or output sensor high RPM protection
+Unit operating at low capacity inspect load and perform necessary repair
+Microprocessor not set for the unit urgently reset
+Compartment fan not working perform necessary repair
+Electric heating problem perform necessary repair
+Stopped to prevent damage check alarms perform necessary repair
+Check high-pressure switch
+Check circuit
+Check circuit and relay
+Check circuit and relay
+Check circuit
+Check both circuits
+Enter set temperature
+Check maintenance hours
+Check maintenance hours
+Check maintenance hours
+Check maintenance hours
+Check maintenance hours
+Check maintenance hours
+Check connections
+Check spare output
+Check damper motor heater
+Sensor control
+Sensor control
+Heater does not start
+Ignition cuts off
+Low or high battery voltage
+Ignition failure
+Flame detector disabled or short circuit
+Overheating sensor disabled or short circuit
+Fuel pump disabled or short circuit
+Blower motor flow error
+Ignition spark plug disabled
+Overheating
+Low fuel level in the engine
+Heater locked
+Insufficient fuel pump pressure
+Excessive battery charge
+Fuel supply error
+Flame sensor error
+Combustion error
+Electrical supply error
+System operating normally no error
+Combustion sensor or ignition device may be faulty
+Fuel supply valve may be faulty
+Error occurred during combustion Air intake or combustion gas exhaust may be restricted
+Low battery voltage or ignition device may be faulty
+Fuel supply error or insufficient fuel supply pressure Fuel pump or fuel filter may be faulty
+Low fuel level or insufficient fuel quality
+Combustion sensor or ignition device may be faulty
+Insufficient combustion air or combustion air sensor faulty
+Combustion tube clogged or combustion tube ventilation hole clogged
+Combustion sensor faulty or issue with combustion sensor cable
+Fuel supply pump faulty or issue with fuel supply pump cable
+MAF Air Flow Circuit Range Performance Problem
+MAF Air Flow Circuit Low Input
+MAF Air Flow Circuit High Input
+Integrated Circuit Temperature Sensor High Input
+Engine Temperature Sensor High Input
+Throttle Position Sensor Circuit Low Input
+Throttle Position Sensor Circuit High Input
+Oxygen Sensor Circuit Malfunction (Bank 1 Sensor 1)
+Oxygen Sensor Circuit Slow Response (Bank 1 Sensor 1)
+Oxygen Sensor Heater Circuit Malfunction (Bank 1 Sensor 1)
+Fuel Air Mixture Lean (Bank 1)
+Fuel Air Mixture Rich (Bank 1)
+Random Multiple Cylinder Misfire Detected
+Cylinder 1 Misfire Detected
+Cylinder 2 Misfire Detected
+Cylinder 3 Misfire Detected
+Cylinder 4 Misfire Detected
+Cylinder 1 Knock Sensor Circuit Malfunction
+Cylinder 1 Knock Sensor Circuit Low Input
+Cylinder 1 Knock Sensor Circuit High Input
+Exhaust Gas Recirculation Circuit Malfunction
+Exhaust Gas Recirculation Circuit Performance
+Catalytic Converter Efficiency Below Threshold (Bank 1)
+Evaporative Emission Control System Malfunction
+Evaporative Emission Control System Performance
+Small Evaporative Emission Control System Leak Detected
+Evaporative Emission Control System Control Valve Circuit Malfunction
+Vehicle Speed Sensor Circuit Malfunction
+Throttle Control Malfunction
+Low Charge Condition
+A Camshaft Position Actuator Circuit (Bank 1)
+Air Flow Circuit Mass or Volume Range Performance Problem
+System Too Lean (Bank 1)
+Random Multiple Cylinder Misfire Detected
+Ignition Distributor Engine Speed Input Circuit No Signal
+Exhaust Gas Recirculation Flow Insufficient Detected
+Catalytic Converter System Efficiency Below Threshold (Bank 1)
+Evaporative Emission Control System Malfunction
+Evaporative Emission Control System Leak Detected (large leak)
+Idle Control System RPM Lower Than Expected
+Internal Control Module Memory Checksum Error
+Generator Control Circuit Malfunction
+Transmission Control System Malfunction
+Output Speed Sensor Circuit Malfunction
+Torque Converter Clutch Circuit Malfunction
+Shift Solenoid A Malfunction
+Mass Air Flow Sensor Self-Test Out of Range
+Long-Term Fuel Trim B1 System Too Lean
+Long-Term Fuel Trim Additional Fuel B1 System Too Lean
+Load Calculation Cross Check Range Performance Problem
+Fuel System Lean During Acceleration B1
+Fuel Delivery System Malfunction – High
+Fuel Control Bank 1 Sensor 1 Signal Out of Range
+Oxygen Sensor Circuit – Bank 1 Sensor 2 Circuit High Voltage
+Series Throttle Control Error
+Needle Lift Sensor Malfunction
+Fuel Pump Secondary Circuit Malfunction
+Engine Coolant Temperature Circuit Malfunction
