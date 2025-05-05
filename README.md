@@ -130,7 +130,7 @@ Bu proje, otel ve restoran yorumları üzerinde **Word2Vec** modellerini eğitme
   - Her parametre kombinasyonu için ayrı modeller eğitilir.
   - Modeller `.model` uzantısıyla kaydedilir.
 - **Analiz**:
-  - "soup" kelimesine en benzer 3 kelime ve skorları çıkarılır.
+  - "error" kelimesine en benzer 3 kelime ve skorları çıkarılır.
   - Veri setindeki en sık kullanılan 20 kelime listelenir.
 
 ---
