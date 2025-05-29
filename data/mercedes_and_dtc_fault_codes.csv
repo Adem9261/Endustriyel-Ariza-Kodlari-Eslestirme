@@ -1,0 +1,1779 @@
+"fault code","code description"
+"100","CAN-H link to FR/CPC faulty"
+"100","CAN-H link to ADM faulty"
+"101","CAN-L link to FR/CPC faulty"
+"101","CAN-L link to ADM faulty"
+"102","Data from control unit FR/CPC faulty"
+"102","Data from control unit ADM faulty"
+"104","CAN link to FR/CPC faulty"
+"104","CAN link to ADM faulty"
+"149","CAN parameterizing error"
+"204","Malfunction of high speed CAN bus to SCR frame module on Euro-4/5 engine"
+"308","Crankshaft position sensor Short circuit to ground"
+"309","Crankshaft position sensor Open circuit, Short circuit to positive"
+"310","Crankshaft position sensor, signal too low"
+"311","Crankshaft position sensor, assignment of crankshaft and camshaft signal is errored."
+"312","Crankshaft position sensor, no signal"
+"313","Crankshaft position sensor has incorrect polarity."
+"408","Camshaft position sensor has Short circuit to ground."
+"409","Camshaft position sensor has Open circuit or Short circuit to positive."
+"412","Camshaft position sensor, no signal"
+"413","Camshaft position sensor incorrect polarity"
+"530","Control unit MR engine control detects too high engine speed."
+"612","No signal 'Fan speed'."
+"631","The fan rpm is too low."
+"722","Temperature downstream of catalytic converter is too high."
+"782","Catalytic converter is not present."
+"788","Temperature upstream of catalytic converter is too high (threshold 1 exceeded)."
+"789","Temperature upstream of catalytic converter is too high (threshold 2 exceeded)."
+"797","Temperature upstream of catalytic converter is too high (reduced engine output)."
+"815","Temperature sensor upstream of catalytic converter has Short circuit to positive,Open circuit."
+"816","Temperature sensor upstream of catalytic converter has Short circuit to ground."
+"915","Temperature sensor downstream of catalytic converter has Short circuit to positive, Open circuit."
+"916","Temperature sensor downstream of catalytic converter has Short circuit to ground."
+"1015","Oil temperature sensor has gone above measuring range (Open circuit, Short circuit to positive)."
+"1016","Oil temperature sensor has gone below measuring range (Short circuit to ground)."
+"1115","Fuel temperature sensor, above measuring range ( Open circuit Short circuit to positive)"
+"1116","Fuel temperature sensor, below measuring range ( Short circuit to ground)"
+"1215","'Charge pressure and charge air temperature' combination sensor: temperature sensor, above measured range (Open circuit Short circuit to positive)"
+"1216","'Charge pressure and charge air temperature' combination sensor: temperature sensor, below measured range (Short circuit to ground)"
+"1315","Atmospheric pressure sensor, above measuring range ( Open circuit Short circuit to positive)"
+"1316","Atmospheric pressure sensor, below measuring range ( Short circuit to ground)"
+"1415","'Charge pressure and charge air temperature' combination sensor: pressure sensor, above measured range (Open circuit Short circuit to positive)"
+"1416","'Charge pressure and charge air temperature' combination sensor: pressure sensor, below measured range (Short circuit to ground)"
+"1417","'Charge pressure and charge air temperature' combination sensor: pressure sensor, measured value implausible"
+"1515","Coolant temperature sensor, above measuring range ( Open circuit Short circuit to positive)"
+"1516","Coolant temperature sensor, below measuring range ( Short circuit to ground)"
+"1615","Oil pressure sensor, above measuring range ( Open circuit Short circuit to positive)"
+"1616","Oil pressure sensor, measuring range not reached (Short circuit to ground)"
+"1617","Oil pressure sensor, measured value implausible"
+"1715","Combined input (Pin 28):Measuring range exceeded"
+"1716","Combined input (Pin 28):Readout below range"
+"1717","Combined input (Pin 28):Signal implausible"
+"1818","Boost circuit faulty"
+"1820","Boost pressure too high"
+"1822","Boost air temperature exceeded"
+"1873","Turbocharger-Vehicle speed has synchronization fault."
+"1874","Manipulated variable deviation of boost pressure control is too great."
+"1875","Charge pressure deviation is too large."
+"1876","The charge pressure for braking operation is not reached."
+"1878","Boost circuit faulty"
+"1917","Measured value of fuel pressure sensor is implausible."
+"2017","Measured value of oil pressure sensor is implausible."
+"2020","Oil pressure is too low."
+"2021","Oil pressure is too low."
+"2026","The engine oil level is too high or too low."
+"2122","Coolant temperature is too high."
+"2219","Terminal 15 of control unit MR or FR/CPC has Open circuit."
+"2219","Terminal 15 of control unit MR or ADM has Open circuit."
+"2319","Terminal 50 of control unit MR or FR/CPC has Open circuit."
+"2319","Terminal 50 of control unit MR or ADM has Open circuit."
+"2415","The differential fuel pressure sensor has Open circuit."
+"2416","The differential fuel pressure sensor has Short circuit to positive,Short circuit to ground."
+"2460","System-Voltage"
+"2461","The reference voltage of the sensors is not available."
+"2462","Internal control module error"
+"2463","Control unit EEPROM error"
+"2464","Error message of control module software"
+"2465","Control unit fault, internal temperature sensor"
+"2466","Component 'Intake air temperature (raw value)' is transmitting a faulty signal."
+"2467","Component 'Crankshaft sensor' is transmitting a faulty signal."
+"2468","CAN high signal of system CAN busFAULTY"
+"2469","Injector fault cylinder 1"
+"2470","Injector fault cylinder 2"
+"2471","Injector fault cylinder 3"
+"2472","Injector fault cylinder 4"
+"2473","Injector fault cylinder 5"
+"2474","Injector fault cylinder 6"
+"2475","Component Low-pressure sensor is faulty."
+"2476","Component Injector monitor module is faulty."
+"2477","A leak (gross leak) was detected in the natural gas system on the low-pressure side."
+"2478","A leak (gross leak) was detected in the natural gas system on the high-pressure side."
+"2479","Fuel pressure sensor signal implausible"
+"2480","Component 'Safety valve' is transmitting a faulty signal.(Natural gas)"
+"2481","There is an internal electrical fault in the component 'Throttle valve output stage'."
+"2482","The throttle valve actuator has a malfunction."
+"2483","Fault in communication with component Constant control of coolant temperature."
+"2484","Component 'Outside air temperature sensor' delivers erratic values."
+"2485","Component Charge air pressure sensor is faulty."
+"2486","The air pressure sensor has a malfunction."
+"2487","Measured value of fuel pressure sensor is implausible."
+"2488","Increased leakage was detected at component 'Y107/2 (Safety shutoff valve)'."
+"2489","Component 'Fuel level sensor' delivers no signal or an implausible signal."
+"2490","Fault in system Fuel"
+"2491","Leakage in fuel system"
+"2492","Reserved(1)"
+"2493","Component Fuel injector has an open circuit in the wiring."
+"2494","Reserved(2)"
+"2495","Reserved(3)"
+"2496","Reserved(4)"
+"2497","Component Oxygen sensor is sporadically faulty."
+"2498","Heating current of O2 sensor(Output reduced)"
+"2499","Internal fault in component Oxygen sensor:"
+"2509","Cable to oil level sensor has Open circuit."
+"2515","Oil level sensor Short circuit to positive, measuring range exceeded"
+"2516","Oil level sensor: below measured range"
+"2517","Oil level sensor , readout implausible"
+"2612","The turbocharger rpm sensor has Open circuit,Short circuit to positive,Short circuit to ground."
+"2615","The turbocharger rpm sensor has Short circuit to positive, Open circuit."
+"2616","The turbocharger rpm sensor has Short circuit to ground."
+"2712","The rpm signal from the alternator is missing (timeout)."
+"2804","The NOx sensor has a communication fault."
+"2815","The NOx sensor has Short circuit to positive,Open circuit."
+"2816","The NOx sensor has Short circuit to ground."
+"2971","Excessive nitrogen oxide emission (threshold 1 exceeded)"
+"2972","Excessive nitrogen oxide emission (threshold 2 exceeded)"
+"3015","Fuel pressure sensor, above measuring range ( Open circuit Short circuit to positive)"
+"3016","Fuel pressure sensor, below measuring range ( Short circuit to ground)"
+"3115","Charge air temperature sensor 2 has Open circuit."
+"3116","Charge air temperature sensor 2 has Short circuit."
+"3215","Exhaust gas recirculation temperature sensor has Open circuit."
+"3216","Exhaust gas recirculation temperature sensor has Short circuit."
+"3332","Exhaust gas recirculation temperature is outside the specified value range."
+"3415","Air humidity sensor has Short circuit to positive, Open circuit."
+"3416","Air humidity sensor has Short circuit to ground."
+"3515","Air temperature sensor has Short circuit to positive,Open circuit."
+"3516","Air temperature sensor has Short circuit to ground."
+"3604","CAN message 'Air temperature' is missing."
+"3617","Measurement value from ambient air temperature sensor is implausible."
+"3706","The SCR compressed air switching valve has Short circuit to ground."
+"3707","The SCR compressed air switching valve has Short circuit to positive."
+"3709","The SCR compressed air switching valve has Open circuit."
+"3817","Measured values of temperature sensors at catalytic converter are implausible."
+"3906","AdBlue pump has Short circuit to ground."
+"3907","AdBlue pump has Short circuit to positive."
+"3909","AdBlue pump has Open circuit."
+"4024","Internal fault in control unit"
+"4034","Internal fault in control unit"
+"4035","Internal fault in control unit"
+"4036","Internal fault in control unit"
+"4037","Internal fault in control unit"
+"4038","Internal fault in control unit"
+"4039","Starter actuation (output stage) faulty"
+"4040","Internal fault in control unit"
+"4041","Internal fault in control unit"
+"4047","Internal fault in control unit"
+"4048","Internal fault in control unit"
+"4049","Invalid parameterization for proportioning valves"
+"4050","Internal fault in control unit"
+"4051","Internal fault in control unit"
+"4052","Internal fault in control unit"
+"4053","Internal fault in control unit"
+"4054","Internal fault in control unit"
+"4056","Internal fault in control unit"
+"4058","The data record in control module MR engine control has been manipulated."
+"4092","Internal fault in control unit"
+"4149","Engine brake is incorrectly parameterized."
+"4200","Proportioning valve 5 has Short circuit to positive."
+"4201","Proportioning valve 5 has Short circuit to ground."
+"4202","Proportioning valve 7 has Short circuit to ground."
+"4203","Proportioning valve 7 has Open circuit."
+"4204","Proportioning valve 7 has Short circuit to positive."
+"4205","The position sensor of the throttle valve has Short circuit to positive,Open circuit."
+"4206","The position sensor of the throttle valve has Short circuit to ground."
+"4207","The temperature sensor upstream of the diesel oxidation catalytic converter has Short circuit to positive,Open circuit."
+"4208","The temperature sensor upstream of the diesel oxidation catalytic converter has Short circuit to ground."
+"4209","The temperature sensor downstream of the diesel oxidation catalytic converter has Short circuit to positive,Open circuit."
+"4210","The temperature sensor downstream of the diesel oxidation catalytic converter has Short circuit to ground."
+"4211","The differential pressure sensor upstream of the diesel particulate filter has Short circuit to positive,Open circuit."
+"4212","The differential pressure sensor upstream of the diesel particulate filter has Short circuit to ground."
+"4213","The differential pressure sensor downstream of the diesel particulate filter has Short circuit to positive,Open circuit."
+"4214","The differential pressure sensor downstream of the diesel particulate filter has Short circuit to ground."
+"4215","The pressure differential in the diesel particulate filter is too high."
+"4217","The control deviation of the throttle valve is too high."
+"4218","The throttle valve reference cycle failed."
+"4219","The diffusor in the AdBlue metering unit is clogged."
+"4221","The diffusor heater has Open circuit."
+"4222","The diffusor heater has Short circuit to ground."
+"4223","The diffusor heater has Short circuit to positive."
+"4224","Internal fault in control unit"
+"4225","The proportioning valve bank 1 has Short circuit to positive."
+"4226","The proportioning valve bank 1 has Short circuit to ground."
+"4227","Internal control module error"
+"4228","No SCRT® system is installed."
+"4229","The measurement value(s) from the SCRT® temperature sensors (pair A) is/are implausible."
+"4230","The measurement value(s) from the SCRT® temperature sensors (pair B) is/are implausible."
+"4231","No diesel particulate filter is installed."
+"4232","The measurement value of the differential pressure sensor upstream of the diesel particulate filter is implausible."
+"4233","The measurement value of the differential pressure sensor downstream of the diesel particulate filter is implausible."
+"4234","Excessive nitrogen oxide emission due to unknown cause (threshold 2 exceeded)"
+"4235","Excessive nitrogen oxide emission due to low quality AdBlue"
+"4236","Excessive nitrogen oxide emission due to insufficient AdBlue dosage"
+"4237","The measurement value of the NOx sensor is implausible."
+"4238","The temperature in the diesel particulate filter is too low."
+"4239","Sensor bank 1 in control unit MR has a short circuit."
+"4240","Sensor bank 2 in control unit MR has a short circuit."
+"4242","Sensor bank 2 in SCR frame module has a short circuit."
+"4243","Sensor bank 3 in SCR frame module has a short circuit."
+"4244","FaultNOx sensor"
+"4245","Component 'NOx sensor' is defective."
+"4246","Excessive untreated nitrogen oxide emission"
+"4247","Component 'Catalytic converter' is defective."
+"4248","Poor AdBlue quality or insufficient AdBlue dosage"
+"4249","Poor AdBlue quality, insufficient AdBlue dosage or defective SCR catalytic converter"
+"4250","Water pump has Short circuit to ground."
+"4251","Water pump has Open circuit."
+"4252","Water pump has Short circuit to positive."
+"4253","The pressure in the reservoir bladder is outside permissible range."
+"4254","General actuator error of continuously variable exhaust flap for diesel particulate filter"
+"4255","Continuously variable exhaust flap for diesel particulate filter has Short circuit to ground."
+"4256","Continuously variable exhaust flap for diesel particulate filter has Short circuit to positive."
+"4257","Continuously variable exhaust flap for diesel particulate filter has Open circuit."
+"4258","Regeneration of diesel particulate filter not completed successfully."
+"4259","Charge air pressure in throttle valve too low."
+"4261","System error at component Constant throttle"
+"4262","Internal fault in control unitThe boot software of the software module is missing or faulty."
+"4415","Temperature sensor T4 has Short circuit to positive or Short circuit to positive."
+"4416","Temperature sensor T4 has Short circuit to ground."
+"4422","The temperature at temperature sensor T4 is too high."
+"4600","Control module SCR signals fault.Component AdBlue temperature sensor has Short circuit to ground."
+"4601","Control module SCR signals fault.Component AdBlue temperature sensor has Short circuit to positive,Open circuit."
+"4602","Control module SCR signals fault.Component AdBlue pressure sensor has Short circuit to ground."
+"4603","Control module SCR signals fault.Component AdBlue pressure sensor has Short circuit to positive,Open circuit."
+"4604","Control module SCR signals fault.The supply voltage of the sensors is too low (undervoltage)."
+"4605","Control module SCR signals fault.The supply voltage of the sensors is too high (overvoltage)."
+"4606","Control module SCR signals fault.The ground line of component AdBlue metering valve has Short circuit to ground."
+"4607","Control module SCR signals fault.The ground line of component AdBlue metering valve has Short circuit to positive."
+"4608","Control module SCR signals fault.The ground line of component AdBlue metering valve has Open circuit."
+"4609","Control module SCR signals fault.The ground line of the heater has Short circuit to ground."
+"4610","Control module SCR signals fault.The ground line of the heater has Short circuit to positive."
+"4611","Control module SCR signals fault.The ground line of the heater has Open circuit."
+"4612","Control module SCR signals fault.High-side output 1 has Short circuit to ground."
+"4613","Control module SCR signals fault.High-side output 1 has Short circuit to positive."
+"4614","Control module SCR signals fault.High-side output 2 has Short circuit to ground."
+"4615","Control module SCR signals fault.High-side output 2 has Short circuit to positive."
+"4616","Control module SCR signals fault.Undervoltage"
+"4617","Control module SCR signals fault.Overvoltage"
+"4618","Control module SCR signals fault.The ground line of component AdBlue pump has Short circuit to ground."
+"4619","Control module SCR signals fault.The ground line of component AdBlue pump has Short circuit to positive."
+"4620","Control module SCR signals fault.The ground line of component AdBlue pump has Open circuit."
+"4621","Control module SCR signals fault.The contamination limit of the AdBlue® filter has almost been reached."
+"4622","Control module SCR signals fault.The contamination limit of the AdBlue® filter has been exceeded."
+"4623","Control module SCR signals fault.The rpm of component 'AdBlue pump' is too high."
+"4624","Control module SCR signals fault.The rpm of component 'AdBlue pump' is too low."
+"4626","Control module SCR signals fault.The rpm of component 'AdBlue pump' is implausible."
+"4627","Control module SCR signals fault.AdBlue pump jammed"
+"4628","Control module SCR signals fault.The rpm difference of the AdBlue® pump between low and high metering quantities is too small."
+"4629","Internal error in control unit SCR"
+"4630","Internal error in control unit SCR"
+"4631","Control module SCR signals fault.The bleed valve is defective."
+"4632","Control module SCR signals fault.Component AdBlue pump is defective."
+"4634","Control module SCR signals fault.The data set is invalid."
+"4635","Control module SCR signals fault.The AdBlue® metering unit is defective."
+"4636","Control module SCR signals fault.The AdBlue® supply unit is defective."
+"4637","Control module SCR signals fault.The rpm variation of the component 'AdBlue pump' is too great."
+"4638","The data set does not match the control unit version."
+"4639","SCR-LO:No communication is possible with control unit SCR."
+"4640","SCR-LO:The NOx sensor has a communication fault."
+"4641","SCR-LO:Proportioning valve 7 has Open circuit."
+"4642","SCR-LO:The ground line of component Proportional valve 7 has Short circuit to positive."
+"4643","SCR-LO:The ground line of component Proportional valve 7 has Short circuit to ground."
+"4644","SCR-LO:Component Air humidity sensor has Short circuit to positive,Open circuit."
+"4645","SCR-LO:Component Air humidity sensor has Short circuit to ground."
+"4646","SCR-LO:Sensor 'Intake air temperature' has Short circuit to positive,Open circuit."
+"4647","SCR-LO:Sensor 'Intake air temperature' has Short circuit to ground."
+"4648","SCR-LO:The fill level sensor of the AdBlue tank indicates an excessively high value."
+"4649","SCR-LO:The fill level sensor of the AdBlue tank indicates an excessively low value."
+"4650","SCR-LO:Temperature sensor of AdBlue tanks has Short circuit to positive,Open circuit."
+"4651","SCR-LO:Temperature sensor of AdBlue tanks has Short circuit to ground."
+"4652","SCR-LO:Temperature sensor upstream of catalytic converter has Short circuit to positive,Open circuit."
+"4653","SCR-LO:Temperature sensor upstream of catalytic converter has Short circuit to ground."
+"4654","SCR-LO:Temperature sensor downstream of catalytic converter has Short circuit to positive,Open circuit."
+"4655","SCR-LO:Temperature sensor downstream of catalytic converter has Short circuit to ground."
+"4656","SCR-LO:The contamination limit of the AdBlue® filter has almost been reached."
+"4657","SCR-LO:The contamination limit of the AdBlue® filter has been exceeded."
+"4805","A unit pump of bank 1 has Short circuit to positive."
+"4806","The return of the unit pumps of bank 1 has Short circuit to ground."
+"4905","A unit pump of bank 2 has Short circuit to positive."
+"4906","The return of the unit pumps of bank 2 has Short circuit to ground."
+"5026","Unit pump for cylinder 1: valve no impact"
+"5027","Unit pump for cylinder 1: Actuation fault"
+"5028","Unit pump for cylinder 1: short circuit"
+"5126","Unit pump for cylinder 2: valve no impact"
+"5127","Unit pump for cylinder 2: Actuation fault"
+"5128","Unit pump for cylinder 2: short circuit"
+"5226","Unit pump for cylinder 3: valve no impact"
+"5227","Unit pump for cylinder 3: Actuation fault"
+"5228","Unit pump for cylinder 3: short circuit"
+"5326","Unit pump for cylinder 4: valve no impact"
+"5327","Unit pump for cylinder 4: Actuation fault"
+"5328","Unit pump for cylinder 4: short circuit"
+"5426","Unit pump for cylinder 5: valve no impact"
+"5427","Unit pump for cylinder 5: Actuation fault"
+"5428","Unit pump for cylinder 5: short circuit"
+"5526","Unit pump for cylinder 6: valve no impact"
+"5527","Unit pump for cylinder 6: Actuation fault"
+"5528","Unit pump for cylinder 6: short circuit"
+"5626","Unit pump for cylinder 7: valve no impact"
+"5627","Unit pump for cylinder 7: Actuation fault"
+"5628","Unit pump for cylinder 7: short circuit"
+"5726","Unit pump for cylinder 8: valve no impact"
+"5727","Unit pump for cylinder 8: Actuation fault"
+"5728","Unit pump for cylinder 8: short circuit"
+"5806","AdBlue line heater has Short circuit to ground."
+"5807","AdBlue line heater has Short circuit to positive."
+"5809","AdBlue line heater has Open circuit."
+"5869","AdBlue line heater is defective."
+"5906","Solenoid valve of AdBlue tank heater has Short circuit to ground."
+"5907","Solenoid valve of AdBlue tank heater has Short circuit to positive."
+"5909","Solenoid valve of AdBlue tank heater has Open circuit."
+"5969","Heat valve of AdBlue tank is defective."
+"6015","Fill level sensor of AdBlue tank has Short circuit to positive, Open circuit."
+"6016","Fill level sensor of AdBlue tank has Short circuit to ground."
+"6029","Fill level of AdBlue tank is too low."
+"6115","Temperature sensor of AdBlue tanks has Short circuit to positive, Open circuit."
+"6116","Temperature sensor of AdBlue tanks has Short circuit to ground."
+"6169","Sensor 'Fill level/temperature of AdBlue tank' is defective."
+"6293","Internal error in the SCR frame module"
+"6327","Actuation of OBD lamp is faulty."
+"6409","The heater flange has Open circuit."
+"6432","Fault at heater flange"
+"6506","The diagnostic cable of the oil separator has Short circuit to ground."
+"6564","The diagnostic cable of the oil separator has Open circuit or Short circuit to positive."
+"6678","The EGR valve is faulty."
+"6679","Temperature difference between exhaust gas and coolant is implausible."
+"6720","AdBlue pressure is too high."
+"6721","AdBlue pressure is too low."
+"6770","AdBlue pressure drop is too low during run-on."
+"6777","Power consumption of AdBlue pump is too high."
+"6820","SCR air pressure is too high."
+"6821","SCR air pressure is too low."
+"6883","The air supply of the SCR compressed air system is faulty."
+"6949","Parameterizing error"
+"6994","Exhaust gas aftertreatment switched off and diagnosis routine active"
+"6995","Exhaust gas aftertreatment switched off and diagnosis routine active"
+"7006","Proportioning valve 1 has Short circuit to ground."
+"7007","Proportioning valve 1 has Short circuit to positive."
+"7009","Proportioning valve 1 has Open circuit."
+"7106","Proportioning valve 3 has Short circuit to ground."
+"7107","Proportioning valve 3 has Short circuit to positive."
+"7109","Proportioning valve 3 has Open circuit."
+"7112","Proportioning valve 3:No fan speed"
+"7206","Proportioning valve 4 has Short circuit to ground."
+"7207","Proportioning valve 4 has Short circuit to positive."
+"7209","Proportioning valve 4 has Open circuit."
+"7305","Proportioning valve 2 has Short circuit to positive."
+"7306","Proportioning valve 2 has Short circuit to ground."
+"7307","Proportioning valve 2 has Short circuit to positive."
+"7309","Proportioning valve 2 has Open circuit."
+"7317","Proportioning valve 2:Current implausible"
+"7405","Proportioning valve 5 has Short circuit to positive."
+"7408","Proportioning valve 5 has Short circuit to ground."
+"7542","Battery voltage too high"
+"7543","Battery voltage too low"
+"7606","Proportioning valve 6 has Short circuit to ground."
+"7607","Proportioning valve 6 has Short circuit to positive."
+"7609","Proportioning valve 6 has Open circuit."
+"7705","The proportioning valve bank 1 has Short circuit to positive."
+"7708","The proportioning valve bank 1 has Short circuit to ground."
+"7805","The proportioning valve bank 2 has Short circuit to positive."
+"7808","The proportioning valve bank 2 has Short circuit to ground."
+"7905","Proportioning valve bank 'SCR frame module' has Short circuit to positive."
+"7908","Proportioning valve bank 'SCR frame module' has Short circuit to ground."
+"8005","Terminal 50 on series relay(Short circuit to positive)"
+"8008","Terminal 50 on series relay(Short circuit to ground)"
+"8009","Terminal 50 on series relay(Open circuit)"
+"8033","Series relay defective"
+"8039","Starter actuation (output stage) faulty"
+"8086","Starter does not engage"
+"8106","SCR compressed air shutoff valve has Short circuit to ground."
+"8107","SCR compressed air shutoff valve has Short circuit to positive."
+"8109","SCR compressed air shutoff valve has Open circuit."
+"8206","AdBlue metering valve has Short circuit to ground."
+"8207","AdBlue metering valve has Short circuit to positive."
+"8209","AdBlue metering valve has Open circuit."
+"8315","AdBlue temperature sensor has Open circuit, Short circuit to positive."
+"8316","AdBlue temperature sensor has Short circuit to ground."
+"8415","AdBlue pressure sensor has Short circuit to positive, Open circuit."
+"8416","AdBlue pressure sensor has Short circuit to ground."
+"8417","Measured value of AdBlue pressure sensor is implausible."
+"8515","SCR compressed air sensor has Short circuit to positive, Open circuit."
+"8516","SCR compressed air sensor has Short circuit to ground."
+"8517","Measured value of SCR compressed air sensor is implausible."
+"8690","Current AdBlue consumption is too high."
+"8691","Current AdBlue consumption is too low."
+"8790","Average AdBlue consumption is too high."
+"8791","Average AdBlue consumption is too low."
+"8896","AdBlue pressure is implausible."
+"8906","AdBlue metering valve on SCR frame module has Short circuit to ground."
+"8907","AdBlue metering valve on SCR frame module has Short circuit to positive."
+"8909","AdBlue metering valve on SCR frame module has Open circuit."
+"9044","Unit pump cylinder 1: smooth idle control within limit"
+"9045","Unit pump cylinder 1: single cylinder adjustment within limit"
+"9144","Unit pump cylinder 2: smooth idle control within limit"
+"9145","Unit pump cylinder 2: single cylinder adjustment within limit"
+"9244","Unit pump cylinder 3: smooth idle control within limit"
+"9245","Unit pump cylinder 3: single cylinder adjustment within limit"
+"9344","Unit pump cylinder 4: smooth idle control within limit"
+"9345","Unit pump cylinder 4: single cylinder adjustment within limit"
+"9444","Unit pump cylinder 5: smooth idle control within limit"
+"9445","Unit pump cylinder 5: single cylinder adjustment within limit"
+"9544","Unit pump cylinder 6: smooth idle control within limit"
+"9545","Unit pump cylinder 6: single cylinder adjustment within limit"
+"9644","Unit pump cylinder 7: smooth idle control within limit"
+"9645","Unit pump cylinder 7: single cylinder adjustment within limit"
+"9744","Unit pump cylinder 8: smooth idle control within limit"
+"9745","Unit pump cylinder 8: single cylinder adjustment within limit"
+"9846","Single cylinder comparison aborted"
+"9960","Too many keys"
+"9961","Immobilizer guard function active, control unit MR engine control blocked"
+"9962","Immobilizer in MR engine control activated"
+"9963","No transponder code through engine CAN bus"
+"9964","No transponder code through terminal 50"
+"9965","Incorrect transponder key"
+"4271","Abort of automatic compression test"
+"4272","Abort of automatic compression test"
+"4273","The measuring range of the temperature sensor of the component 'Pump, line, jet (PLD) control unit' has been exceeded."
+"R","FR drive control"
+"110","No CAN message from ABS Anti-lock Braking System or BS brake control (EPB) or message incorrect"
+"111","No or incorrect CAN message from control unit GS Gear control"
+"112","No or incorrect CAN message from control unit KS clutch control"
+"113","No or incorrect CAN message from control unit RS Retarder control"
+"114","No or incorrect CAN message from control unit INS Instrument"
+"115","No or incorrect CAN message from control unit PSM Parameterizable Special Module"
+"116","Vehicle CAN bus has Open circuit or Short circuit to positive or Short circuit to ground."
+"117","No or incorrect CAN message from control unit WSK torque converter-clutch"
+"119","No or incorrect CAN message from control unit KWS Articulation angle control"
+"201","Engine CAN to MR engine control in single-wire mode"
+"202","No or incorrect CAN message from control unit MR engine control"
+"203","Engine CAN to MR engine control interrupted"
+"306","Engine CAN to FLA flame starting system interrupted"
+"416","Vehicle CAN bus has Open circuit or Short circuit to positive."
+"418","Vehicle CAN bus has Short circuit to positive or Short circuit to ground."
+"1120","'D+ input' has Short circuit to positive."
+"1125","'D+ input' has Open circuit or Short circuit to ground."
+"1223","Clutch pedal switch 1 has Open circuit."
+"1323","Parking brake switch III-15/9 faulty or has short circuit."
+"1421","Brake pedal switch has Open circuit."
+"1423","Brake pedal switch has Short circuit to positive or Short circuit to ground."
+"1523","'Engine control / continuous brake' operating lever has Open circuit or Short circuit to ground."
+"1524","""Engine control / continuous brake"" operating lever has Short circuit to positive."
+"1526","""Engine control / continuous brake"" operating lever has Short circuit to positive."
+"1623","Clutch pedal switches 1 and 2: incorrect adjustment or switches sticking"
+"1723","Neutral position switch, VI-18/16 faulty/ switch stuck"
+"1923","Splitter switch, II-18/11 and II-18/12 Open circuit/ faulty"
+"2023","Engine brake switch of ""Engine control / continuous brake"" operating lever faulty"
+"2120","Square-wave output GSV 1 (pulsed switch supply) has Short circuit to positive."
+"2122","Square-wave output GSV 1 (pulsed switch supply) has Short circuit to ground."
+"2220","Square-wave output GSV 2 (pulsed switch supply) has Short circuit to positive."
+"2222","Square-wave output GSV 2 (pulsed switch supply) has Short circuit to ground."
+"2320","Square-wave output GSV 3 (pulsed switch supply) has Short circuit to positive."
+"2322","Square-wave output GSV 3 (pulsed switch supply) has Short circuit to ground."
+"2420","Square-wave output GSV 4 (pulsed switch supply) has Short circuit to positive."
+"2422","Square-wave output GSV 4 (pulsed switch supply) has Short circuit to ground."
+"2520","Square-wave outputs (pulsed switch supply) GSV 1 and GSV 4 have Short circuit to positive."
+"2522","Square-wave outputs (pulsed switch supply) GSV 1 and GSV 4 have Short circuit to ground."
+"2620","Square-wave outputs (pulsed switch supply) GSV 2 and GSV 3 have Short circuit to positive."
+"2622","Square-wave outputs (pulsed switch supply) GSV 2 and GSV 3 have Short circuit to ground."
+"2720","Output to oil level switch (3-channel ABS) has Short circuit to positive."
+"2721","Output to oil level switch (3-channel ABS) has Open circuit."
+"3021","Circuit 30 has Open circuit."
+"3031","Overvoltage at terminal 30"
+"3032","Undervoltage at terminal 30"
+"3130","Coolant level switch 15B01 or air filter monitoring sensor 10B01 faulty, voltage supply III-15/3 has Open circuit or Short circuit to positive or Short circuit to ground."
+"3233","Air filter monitoring sensor faulty"
+"3236","Soiling limit of air cleaner is reached."
+"3330","Ambient air temperature sensor has Open circuit or Short circuit to positive or Short circuit to ground."
+"3430","Clutch position sensor not within permissible range"
+"3533","Coolant level switch is faulty."
+"3634","Maximum wear of clutch lining is reached."
+"3635","Clutch position sensor not within permissible range"
+"4041","'W-signal' input has Open circuit or Short circuit to ground or Short circuit to positive."
+"4141","'Transmission input speed signal' faulty, frequency fault"
+"4145","Transmission input speed sensor has Open circuit or Short circuit to positive or Short circuit to ground."
+"4341","Invalid speed signal"
+"4345","V-signal input has Open circuit or Short circuit to positive or Short circuit to ground."
+"4440","The first branch of the foot throttle actuator has Open circuit or Short circuit to positive or Short circuit to ground."
+"4540","The second branch of the foot throttle actuator has Open circuit or Short circuit to positive or Short circuit to ground."
+"4641","Foot throttle actuator faulty"
+"4642","Foot throttle actuator does not reach idle throttle stop."
+"4643","Foot throttle actuator not within learned range"
+"4644","Foot throttle actuator stiff in operation"
+"5051","Solenoid valve 1 (actuation of engine brake 1) has Open circuit or Short circuit to positive."
+"5052","Solenoid valve 1 (actuation of engine brake 1) has Short circuit to ground."
+"5053","Solenoid valve 1 (actuation of engine brake 1) has Short circuit to positive."
+"5054","Solenoid valve 1 (actuation of engine brake 1) has Open circuit."
+"5151","Solenoid valve 2 (actuation of engine brake 2) has Open circuit or Short circuit to positive."
+"5152","Solenoid valve 2 (actuation of engine brake 2) has Short circuit to ground."
+"5153","Solenoid valve 2 (actuation of engine brake 2) has Short circuit to positive."
+"5154","Solenoid valve 2 (actuation of engine brake 2) has Open circuit."
+"5252","MBA engine brake output valve connection has Short circuit to ground."
+"5253","MBA engine brake output valve connection has Short circuit to positive."
+"5351","Output IV 18/7 or IV 18/8 has Open circuit or Short circuit to positive."
+"5352","Splitter solenoid valve 1 has Short circuit to ground."
+"5353","Splitter solenoid valve 1 has Short circuit to positive."
+"5354","Splitter solenoid valve 1 has Open circuit."
+"5451","Output IV 18/7 or IV 18/10 has Open circuit or Short circuit to positive."
+"5452","Splitter solenoid valve 2 has Short circuit to ground."
+"5453","Splitter solenoid valve 2 has Short circuit to positive."
+"5454","Splitter solenoid valve 2 has Open circuit."
+"5552","Output IV 18/7 or IV 15/8 has Short circuit to ground."
+"5553","Output IV 18/7 or IV 15/8 has Short circuit to positive."
+"5651","'Brake light actuation' output has Open circuit or Short circuit to positive."
+"5652","'Brake light actuation' output has Short circuit to ground."
+"5653","'Brake light actuation' output has Short circuit to positive."
+"5654","'Brake light actuation' output has Open circuit."
+"5751","'Reversing light actuation' output has Open circuit or Short circuit to positive."
+"5752","'Reversing light actuation' output has Short circuit to ground."
+"5753","'Reversing light actuation' output has Short circuit to positive."
+"5754","'Reversing light actuation' output has Open circuit."
+"5851","'Actuation of D+' output has Open circuit or Short circuit to positive."
+"5852","'Actuation of D+' output has Short circuit to ground."
+"5853","'Actuation of D+' output has Short circuit to positive."
+"5854","'Actuation of D+' output has Open circuit."
+"5951","'Automatic engine oil replenishment' actuation has Open circuit or Short circuit to positive."
+"5952","'Automatic engine oil replenishment' actuation has Short circuit to ground."
+"5953","'Automatic engine oil replenishment' actuation has Short circuit to positive."
+"5954","'Automatic engine oil replenishment' actuation has Open circuit."
+"6161","Control module has an internal error."
+"6262","Control module has an internal error."
+"7060","Control module has an internal error."
+"7064","Control module has an internal error."
+"7070","Accelerator pedal unit not learned"
+"7071","Learning error with splitter ratio"
+"7072","Learning error with terminal W ratio"
+"7073","Learning error with clutch travel sensor"
+"7074","Learning error at vehicle CAN bus"
+"MCM01B","MCM Motor Control Module(Cummins)"
+"364","The component 'Position of exhaust gas recirculation valve' or its electrical line has a short circuit to ground."
+"663","The component 'Throttle valve positioner' or its electrical line has a short circuit to positive."
+"664","The component 'Throttle valve positioner' or its electrical line has a short circuit to ground."
+"667","Component Throttle valve positioner is not leaktight."
+"000A82","Signal 'Vehicle speed' is implausible."
+"000A8A","Manipulation of switching circuit of speed sensor detected."
+"000B62","Component '10B58: 2-way analog accelerator pedal' delivers no signal or an implausible signal."
+"000B63","The component '10B58: 2-way analog accelerator pedal' or its electrical line has a short circuit to positive."
+"000B64","The component '10B58: 2-way analog accelerator pedal' or its electrical line has a short circuit to ground."
+"000B73","CAN communication with component '10B58: 2-way analog accelerator pedal' is faulty."
+"000C23","The component 'Condensation sensor' or its electrical line has a short circuit to positive."
+"000C24","The component 'Condensation sensor' or its electrical line has a short circuit to ground."
+"000C2F","The water content of the fuel filter has reached the upper limit value."
+"000C30","Fuel filter-The water content is too high."
+"000C81","Oil level is too low."
+"000C82","Implausible signal from oil pressure switch"
+"000C83","Component Oil pressure switch has a short circuit to positive."
+"000C84","Component Oil pressure switch has a short circuit to ground."
+"000C92","Oil level has dropped below operating limits."
+"000CC2","Component 'Pressure sensor 'Intake air'' delivers no signal or an implausible signal."
+"000CC3","The component 'Pressure sensor 'Intake air'' or its electrical line has a short circuit to positive."
+"000CC4","The component 'Pressure sensor 'Intake air'' or its electrical line has a short circuit to ground."
+"000CD0","The signal 'Intake manifold pressure' from the component 'Pressure sensor 'Intake air'' is above the permissible range."
+"000CD2","The signal 'Intake manifold pressure' from the component 'Pressure sensor 'Intake air'' is below the permissible range."
+"000CE2","The signal from component Turbocharger rpm sensor is implausible or no signal."
+"000CEF","The signal 'Rpm' from the component 'Turbocharger rpm sensor' is above the permissible range."
+"000CF0","The signal 'Rpm' from the component 'Turbocharger rpm sensor' is above the permissible range."
+"000CF2","The signal 'Rpm' from the component 'Turbocharger rpm sensor' is below the permissible range."
+"000D20","The signal 'Boost air temperature' from the component 'Charge air temperature sensor' is above the permissible range."
+"000D22","Fault in detection of charge air temperature at intake manifold of engine."
+"000D23","The component 'Pressure sensor 'Intake air'' or its electrical line has a short circuit to positive."
+"000D24","The component 'Intake air temperature sensor' or its electrical line has a short circuit to ground."
+"000D2F","The signal 'Boost air temperature' from the component 'Intake air temperature sensor' is above the permissible range."
+"000D82","The signal from component Atmospheric pressure sensor is implausible or no signal."
+"000D83","The component 'Atmospheric pressure sensor' or its electrical line has a short circuit to positive."
+"000D84","The component 'Atmospheric pressure sensor' or its electrical line has a short circuit to ground."
+"000DC0","The signal 'Coolant temperature' from the component 'Coolant temperature sensor' is above the permissible range."
+"000DC2","The signal from component Coolant temperature sensor is implausible or no signal."
+"000DC3","The component 'Coolant temperature sensor' or its electrical line has a short circuit to positive."
+"000DC4","The component 'Coolant temperature sensor' or its electrical line has a short circuit to ground."
+"000DCF","The signal 'Coolant temperature' from the component 'Coolant temperature sensor' is above the permissible range."
+"000DD0","The signal 'Coolant temperature' from the component 'Coolant temperature sensor' is above the permissible range."
+"000DE1","The signal 'Coolant level' from the component '15B01: Coolant container fill level sensor' is below the permissible range."
+"000DE2","The signal from component Coolant level sensor is implausible or no signal."
+"000DE3","The component 'Coolant level sensor' or its electrical line has a short circuit to positive."
+"000DE4","The component 'Coolant level sensor' or its electrical line has a short circuit to ground."
+"000DF1","The signal 'Coolant level' from the component 'Coolant level sensor' is below the permissible range."
+"000DF2","The signal 'Coolant level' from the component 'Coolant level sensor' is below the permissible range."
+"1082","The signal from component Mass air flow sensor is implausible or no signal."
+"1088","The signal from component Mass air flow sensor is implausible or no signal."
+"1090","The signal 'Air mass' from the component 'Mass air flow sensor' is above the permissible range."
+"1092","The signal from component Mass air flow sensor is implausible or no signal."
+"0013A0","Pressure limiting valve has exceeded operating limit."
+"0013A3","The component '10B54: Rail pressure sensor' or its electrical line has a short circuit to positive."
+"0013A4","The component '10B54: Rail pressure sensor' or its electrical line has a short circuit to ground."
+"0013B0","The signal 'Rail pressure ' from the component '10B54: Rail pressure sensor' is above the permissible range."
+"0013B2","The signal 'Rail pressure ' from the component '10B54: Rail pressure sensor' is above the permissible range."
+"1,30E+01","The signal 'Fuel pressure' from the component 'Fuel pressure sensor' is above the permissible range."
+"1,30E+04","The component 'Fuel pressure sensor' or its electrical line has a short circuit to positive."
+"1,30E+05","The component 'Fuel pressure sensor' or its electrical line has a short circuit to ground."
+"0013F0","The signal 'Fuel pressure' from the component 'Fuel pressure sensor' is above the permissible range."
+"0013F2","The signal 'Fuel pressure' from the component 'Fuel pressure sensor' is below the permissible range."
+"1,40E+02","Battery voltage is too low."
+"0014F0","Battery voltage is too low."
+"0014F2","Battery voltage is too low."
+"1510","The battery voltage is too high."
+"1512","Battery voltage is too low."
+"1562","Measurement value from ambient air temperature sensor is implausible."
+"1563","The component 'Outside air temperature sensor' or its electrical line has a short circuit to positive."
+"1564","The component 'Outside air temperature sensor' or its electrical line has a short circuit to ground."
+"0015C3","The component 'Fuel temperature sensor' or its electrical line has a short circuit to positive."
+"0015CB","The component 'Fuel temperature sensor' or its electrical line has a short circuit to ground."
+"0017C0","The signal 'Crankshaft' from the component 'Crankshaft position sensor' is above the permissible range."
+"0017C2","The signal from component Crankshaft position sensor is implausible or no signal."
+"001F62","The signal from component Real-time clock is implausible or no signal."
+"001F6A","The real-time clock inside the control unit has a malfunction."
+"3362","The signal from component Pressure differential of exhaust gas recirculation is implausible or no signal."
+"3363","The component 'Pressure differential of exhaust gas recirculation ' or its electrical line has a short circuit to positive."
+"3364","The component 'Pressure differential of exhaust gas recirculation ' or its electrical line has a short circuit to ground."
+"3383","The component 'Exhaust gas recirculation temperature sensor' or its electrical line has a short circuit to positive."
+"3384","The component 'Exhaust gas recirculation temperature sensor' or its electrical line has a short circuit to ground."
+"00338F","The signal 'Temperature' from the component 'Exhaust gas recirculation temperature sensor' is above the permissible range."
+"3390","The signal 'Temperature' from the component 'Exhaust gas recirculation temperature sensor' is above the permissible range."
+"3790","The battery voltage is too high."
+"3792","Battery voltage is too low."
+"0041A2","The CAN input signals are implausible."
+"0045C2","Test wiring to the components Accelerator pedal and Manual throttle actuator."
+"0045CD","Components Accelerator pedal and Manual throttle actuator supply implausible values."
+"4669","No communication is possible with control unit BS Brake control."
+"004AA3","The component 'Brake switch' or its electrical line has a short circuit to positive."
+"004AA4","The component 'Brake switch' or its electrical line has a short circuit to ground."
+"004C82","Connector lines Crankshaft position sensor and Camshaft position sensor are swapped."
+"4,00E+29","The signal from component X0209: CAN - IES star point is implausible or no signal."
+"004EAC","An internal control unit fault was detected."
+"004F03","The component 'Solenoid valve 'Fuel shutoff'' or its electrical line has a short circuit to positive."
+"004F04","The component 'Solenoid valve 'Fuel shutoff'' or its electrical line has a short circuit to ground."
+"004F23","The component 'Injector' or its electrical line has a short circuit to positive."
+"004F24","The component 'Injector' or its electrical line has a short circuit to ground."
+"004F3F","Implausible resistance valueActuatorFuel pump"
+"004FE9","The CAN bus has failed or the received CAN signals are not plausible."
+"004FED","CAN bus-fault"
+"5,00E+04","The component 'Electromagnetic fan clutch' or its electrical line has a short circuit to positive."
+"5,00E+05","The component 'Electromagnetic fan clutch' or its electrical line has a short circuit to ground."
+"5165","The fuel injector (cylinder 1) has an electrical fault or an open circuit."
+"5185","The fuel injector (cylinder 2) has an electrical fault or an open circuit."
+"0051A5","The fuel injector (cylinder 3) has an electrical fault or an open circuit."
+"0051C5","The fuel injector (cylinder 4) has an electrical fault or an open circuit."
+"5,10E+06","The fuel injector (cylinder 5) has an electrical fault or an open circuit."
+"5205","The fuel injector (cylinder 6) has an electrical fault or an open circuit."
+"0054A3","The starter relay has a short circuit to positive."
+"0054A4","The starter relay has a short circuit to ground."
+"0057C3","The component 'C3-signal/v-impulse of speedometer' or its electrical line has a short circuit to positive."
+"5,70E+04","The component 'C3-signal/v-impulse of speedometer' or its electrical line has a short circuit to positive."
+"0057EB","Accessory assembliesSensor3-Unknown cause"
+"5822","Component 'Air cleaner sensor' delivers no signal or an implausible signal."
+"5823","The component 'Air cleaner sensor' or its electrical line has a short circuit to positive."
+"5824","The component 'Air cleaner sensor' or its electrical line has a short circuit to ground."
+"00583F","Air cleaner sensor is soiled."
+"5842","The signal from component Generator is implausible or no signal."
+"00585F","Generator-The battery is not charged."
+"005A62","The signal from component Camshaft position sensor is implausible or no signal."
+"005A67","Crank angle position sensor, assignment of crankshaft and camshaft signal faulty"
+"005AA3","The component 'Starter relay' or its electrical line has a short circuit to positive."
+"005AA4","The component 'Starter relay' or its electrical line has a short circuit to ground."
+"005AC3","The component 'Ignition system' or its electrical line has a short circuit to positive."
+"005AC4","The component 'Ignition system' or its electrical line has a short circuit to ground."
+"005B23","The component 'Intake air preheating' or its electrical line has a short circuit to positive."
+"005B24","The component 'Intake air preheating' or its electrical line has a short circuit to ground."
+"005D89","The signal of component 'Retarder' is implausible."
+"6969","The signal of component 'INS Instrument' is implausible."
+"0079C3","The component 'Manual throttle actuator' or its electrical line has a short circuit to positive."
+"0079C4","The component 'Manual throttle actuator' or its electrical line has a short circuit to ground."
+"0079D3","The signal of component 'Manual throttle actuator' is implausible."
+"8603","The component '11Y02: Engine brake 2 solenoid valve (exhaust flap)' or its electrical line has a short circuit to positive."
+"8604","The component '11Y02: Engine brake 2 solenoid valve (exhaust flap)' or its electrical line has a short circuit to ground."
+"0087A2","The signal of the component 'Retarder' is invalid."
+"008CE3","The component 'Pressure sensor 'Intake air'' or its electrical line has a short circuit to positive."
+"008CE4","The component 'Pressure sensor 'Intake air'' or its electrical line has a short circuit to ground."
+"8,00E+02","Control unit fault, internal temperature sensor"
+"8,00E+03","Control unit fault, internal temperature sensor"
+"8,00E+04","Control unit fault, internal temperature sensor"
+"9282","The signal of the component '10B25: Turbo intake air temperature sensor' is invalid."
+"9283","The component '10B25: Turbo intake air temperature sensor' or its electrical line has a short circuit to positive."
+"9284","The component '10B25: Turbo intake air temperature sensor' or its electrical line has a short circuit to ground."
+"9303","The component 'Boost pressure sensor' or its electrical line has a short circuit to positive."
+"9304","The component 'Boost pressure sensor' or its electrical line has a short circuit to ground."
+"9310","The signal 'Boost pressure' from the component 'Boost pressure sensor' is above the permissible range."
+"9312","Turbocharger 1 Compressor Intake Pressure - Data Valid But Below Normal Operating Range - Moderately Severe Level | |The signal 'Air pressure' from the component 'Turbocharger' is below the permissible range."
+"9383","The component 'Intake air temperature sensor' or its electrical line has a short circuit to positive."
+"9384","The component 'Intake air temperature sensor' or its electrical line has a short circuit to ground."
+"9483","The component 'Charge pressure control valve ' or its electrical line has a short circuit to positive."
+"9484","The component 'Charge pressure control valve ' or its electrical line has a short circuit to ground."
+"9487","Mechanical faultCharge pressure control"
+"9562","The signal of the component 'Immobilizer' is invalid."
+"009B23","The component '15B46: Mass air flow natural gas sensor' or its electrical line has a short circuit to positive."
+"009B24","The component '15B46: Mass air flow natural gas sensor' or its electrical line has a short circuit to ground."
+"009B30","The signal 'Fuel flow' from the component '15B46: Mass air flow natural gas sensor' is above the permissible range."
+"009B32","The signal 'Fuel flow' from the component '15B46: Mass air flow natural gas sensor' is below the permissible range."
+"9,00E+63","The component '47K09: Frequent-stop brake idle throttle signal relay' or its electrical line has a short circuit to positive."
+"9,00E+64","The component '47K09: Frequent-stop brake idle throttle signal relay' or its electrical line has a short circuit to ground."
+"00A1CF","Spark plug1 (A1):The signal 'Voltage' from the component 'Spark plug' is above the permissible range."
+"00A1D1","Spark plug1 (A1):The signal 'Voltage' from the component 'Spark plug' is below the permissible range."
+"00A1EF","Spark plug2 (B1):The signal 'Voltage' from the component 'Spark plug' is above the permissible range."
+"00A1F1","Spark plug2 (B1):The signal 'Voltage' from the component 'Spark plug' is below the permissible range."
+"00A20F","Spark plug3 (A2):The signal 'Voltage' from the component 'Spark plug' is above the permissible range."
+"00A211","Spark plug3 (A2):The signal 'Voltage' from the component 'Spark plug' is below the permissible range."
+"00A22F","Spark plug4 (B2):The signal 'Voltage' from the component 'Spark plug' is above the permissible range."
+"00A231","Spark plug4 (B2):The signal 'Voltage' from the component 'Spark plug' is below the permissible range."
+"00A24F","Spark plug5 (A3):The signal 'Voltage' from the component 'Spark plug' is above the permissible range."
+"00A251","Spark plug5 (A3):The signal 'Voltage' from the component 'Spark plug' is below the permissible range."
+"00A26F","Spark plug6 (B3):The signal 'Voltage' from the component 'Spark plug' is above the permissible range."
+"00A271","Spark plug6 (B3):The signal 'Voltage' from the component 'Spark plug' is below the permissible range."
+"00A543","The component 'Ignition coils' or its electrical line has a short circuit to positive."
+"00A544","The component 'Ignition coils' or its electrical line has a short circuit to ground."
+"00A55F","Combustion misfiring at various cylinders at both banks"
+"00A57F","Combustion misfiring of cylinder 1 has been detected."
+"00A59F","Combustion misfiring of cylinder 2 has been detected."
+"00A5BF","Combustion misfiring of cylinder 3 has been detected."
+"00A5DF","Combustion misfiring of cylinder 4 has been detected."
+"00A5FF","Combustion misfiring of cylinder 5 has been detected."
+"00A61F","Combustion misfiring of cylinder 6 has been detected."
+"00A863","The component 'Fuel pump' or its electrical line has a short circuit to positive."
+"00A864","The component 'Fuel pump' or its electrical line has a short circuit to ground."
+"00A867","Fuel pumpMechanical fault"
+"00A900","Cylinder 1:Knocking combustion"
+"00A90F","Cylinder 1:Knocking combustion"
+"00A920","Cylinder 2:Knocking combustion"
+"00A924","The component 'Cylinder 2' or its electrical line has a short circuit to ground."
+"00A92F","Cylinder 2:Knocking combustion"
+"00A940","Cylinder 3:Knocking combustion"
+"00A94F","Cylinder 3:Knocking combustion"
+"00A960","Cylinder 4:Knocking combustion"
+"00A96F","Cylinder 4:Knocking combustion"
+"00A980","Cylinder 5:Knocking combustion"
+"00A984","The component 'Cylinder 5' or its electrical line has a short circuit to ground."
+"00A98F","Cylinder 5:Knocking combustion"
+"00A9A0","Cylinder 6:Knocking combustion"
+"00A9AF","Cylinder 6:Knocking combustion"
+"00AC5F","The engine oil must be replaced."
+"00ADC1","The signal 'Pressure' from the component 'B4/25 (Fuel pressure and temperature sensor)' is below the permissible range."
+"00ADC3","The component 'B4/25 (Fuel pressure and temperature sensor)' or its electrical line has a short circuit to positive."
+"00ADC4","The component 'B4/25 (Fuel pressure and temperature sensor)' or its electrical line has a short circuit to ground."
+"00ADD0","The signal 'Pressure' from the component 'B4/25 (Fuel pressure and temperature sensor)' is above the permissible range."
+"00ADD2","The signal 'Pressure' from the component 'B4/25 (Fuel pressure and temperature sensor)' is above the permissible range."
+"00C6C2","The signal of component 'ART autonomous intelligent cruise control' is implausible."
+"00DC21","The fill level of the AdBlue tank is too low."
+"00DC23","Fill level sensor 'AdBlue' has a short circuit to positive."
+"00DC24","Fill level sensor 'AdBlue' has a short circuit to ground."
+"00DC32","The fill level of the AdBlue tank is too low."
+"00E6A9","CAN bus-fault"
+"1,47E+05","The component '10B58: 2-way analog accelerator pedal' or its electrical line has a short circuit to positive."
+"1,47E+06","The component '10B58: 2-way analog accelerator pedal' or its electrical line has a short circuit to ground."
+"0148AF","The signal 'Charge air temperature downstream of turbocharger ' from the component 'Turbocharger' is below the permissible range."
+"0148C3","The component 'Mass air flow sensor' or its electrical line has a short circuit to positive."
+"0148C4","The component 'Mass air flow sensor' or its electrical line has a short circuit to ground."
+"014C70","The signal 'Pressure' from the component 'Differential pressure sensor' is above the permissible range."
+"014C72","The signal 'Pressure' from the component 'Differential pressure sensor' is below the permissible range."
+"015CAF","The signal 'Charge air temperature upstream of turbocharger' from the component 'Turbocharger' is above the permissible range."
+"015CB0","The signal 'Temperature' from the component 'Charge air temperature sensor' is above the permissible range."
+"015CE4","The component 'Exhaust gas recirculation valve ' or its electrical line has a short circuit to ground."
+"015CE5","The electrical lines to component 'Exhaust gas recirculation valve ' have a short circuit or an open circuit."
+"015CE7","Mechanical fault of component Exhaust gas recirculation valve"
+"015CED","Calibration of the component 'Exhaust gas recirculation valve ' is not plausible."
+"17042","Operational fault of component Sensor 'Humidity/air temperature'"
+"17043","The component 'Sensor 'Humidity/air temperature'' or its electrical line has a short circuit to positive."
+"017AE2","The signal of component 'Sensor 'Fill level/temperature of AdBlue tank'' is implausible."
+"017AE3","The component 'Sensor 'Fill level/temperature of AdBlue tank'' or its electrical line has a short circuit to positive."
+"017AE4","The component 'Sensor 'Fill level/temperature of AdBlue tank'' or its electrical line has a short circuit to ground."
+"017AF2","The signal 'Temperature' from the component 'Sensor 'Fill level/temperature of AdBlue tank'' is below the permissible range."
+"19222","Operational fault of component Oxygen sensor"
+"19223","The component 'Oxygen sensor' or its electrical line has a short circuit to positive."
+"0192C3","The component 'Oxygen sensor' or its electrical line has a short circuit to positive."
+"0192C4","The component 'Oxygen sensor' or its electrical line has a short circuit to ground."
+"19340","The NOx concentration downstream of the SCR catalytic converter is too high."
+"19342","The signal of component 'NOx sensor downstream of SCR catalytic converter' is implausible."
+"19344","The component 'NOx sensor downstream of SCR catalytic converter' or its electrical line has a short circuit to ground."
+"19349","The signal of component 'NOx sensor downstream of SCR catalytic converter' is implausible."
+"01934F","The signal 'NOx concentration' from the component 'NOx sensor downstream of SCR catalytic converter' is above the permissible range."
+"19363","The component '17B08: Nitrogen oxide (NOx) sensor after Selective Catalytic Reduction' or its electrical line has a short circuit to positive."
+"19382","The power supply of component 'NOx sensor downstream of SCR catalytic converter' is outside the tolerance."
+"19403","The component 'Oxygen sensor' or its electrical line has a short circuit to positive."
+"19404","The component 'Oxygen sensor' or its electrical line has a short circuit to ground."
+"19520","The signal 'Temperature' from the component '17B03: Temperature sensor, exhaust gas downstream of SCR catalytic converter' is above the permissible range."
+"19523","The component '17B03: Temperature sensor, exhaust gas downstream of SCR catalytic converter' or its electrical line has a short circuit to positive."
+"19524","The component '17B03: Temperature sensor, exhaust gas downstream of SCR catalytic converter' or its electrical line has a short circuit to ground."
+"19530","The signal 'Temperature' from the component '17B03: Temperature sensor, exhaust gas downstream of SCR catalytic converter' is above the permissible range."
+"01A402","The signal of component 'AdBlue metering unit' is implausible."
+"01A409","The signal of component 'AdBlue metering unit' is implausible."
+"01A40B","AdBlue metering unit-Unknown cause"
+"01A40C","Internal fault in component AdBlue metering unit:"
+"01A413","The signal between the components '10A24: Diesel engine control unit' and 'AdBlue metering unit' is implausible."
+"01A422","The signal of component 'AdBlue metering unit' is implausible."
+"01A423","The component 'AdBlue metering unit' or its electrical line has a short circuit to positive."
+"01A424","The component 'AdBlue metering unit' or its electrical line has a short circuit to ground."
+"01A425","The component 'AdBlue metering unit' or its electrical line has an open circuit."
+"01A427","Mechanical fault of component AdBlue metering unit"
+"01A42B","AdBlue metering unit-Unknown cause"
+"01A42C","Internal fault in component AdBlue metering unit:"
+"01A447","The lead to component AdBlue metering unit has Mechanical fault."
+"01A45F","Fault in component AdBlue metering unit"
+"01A463","The component 'AdBlue tank heater' or its electrical line has a short circuit to positive."
+"01A464","The component 'AdBlue tank heater' or its electrical line has a short circuit to ground."
+"01A465","The component 'AdBlue tank heater' or its electrical line has an open circuit."
+"01A467","Mechanical fault of component AdBlue tank heater"
+"01A470","The signal 'Temperature' from the component 'AdBlue tank heater' is above the permissible range."
+"01A472","The signal '' from the component 'AdBlue tank heater' is below the permissible range."
+"01AF63","The component 'Ignition system' or its electrical line has a short circuit to positive."
+"01AF64","The component 'Ignition system' or its electrical line has a short circuit to ground."
+"01B100","The signal 'Throttle valve position ' from the component 'Throttle valve positioner' is above the permissible range."
+"01B101","The signal 'Throttle valve position ' from the component 'Throttle valve positioner' is below the permissible range."
+"01B104","The component 'Throttle valve positioner' or its electrical line has a short circuit to ground."
+"01B106","Component Throttle valve positioner has a short circuit to positive or ground."
+"01B6A3","Sensor supply voltage1-Excessive voltage or short circuit to positive"
+"01B6A4","Sensor supply voltage1-Insufficient voltage or short circuit to ground"
+"01B6C3","Sensor supply voltage2-Excessive voltage or short circuit to positive"
+"01B6C4","Sensor supply voltage2-Insufficient voltage or short circuit to ground"
+"01B6E3","Sensor supply voltage3-Excessive voltage or short circuit to positive"
+"01B6E4","Sensor supply voltage3-Insufficient voltage or short circuit to ground"
+"01B703","Sensor supply voltage4-Excessive voltage or short circuit to positive"
+"01B704","Sensor supply voltage4-Insufficient voltage or short circuit to ground"
+"01B723","Sensor supply voltage5-Excessive voltage or short circuit to positive"
+"01B724","Sensor supply voltage5-Insufficient voltage or short circuit to ground"
+"01B743","Sensor supply voltage6-Excessive voltage or short circuit to positive"
+"01B744","Sensor supply voltage6-Insufficient voltage or short circuit to ground"
+"01BC71","The signal 'Sensor voltage' from the component 'Charge air pressure sensor' is below the permissible range."
+"01C1A2","The power supply of terminal 15 has an open circuit."
+"01CB22","The signal from component Throttle valve positioner is implausible or no signal."
+"01CB23","The component 'Throttle valve positioner' or its electrical line has a short circuit to positive."
+"01CB24","The component 'Throttle valve positioner' or its electrical line has a short circuit to ground."
+"02001F","The AdBlue tank is empty."
+"021DC2","The signal from component AdBlue pressure sensor is implausible or no signal."
+"021DC3","The component 'AdBlue pressure sensor' or its electrical line has a short circuit to positive."
+"021DC4","The component 'AdBlue pressure sensor' or its electrical line has a short circuit to ground."
+"021DD0","The signal 'AdBlue pressure' from the component 'AdBlue pressure sensor' is above the permissible range."
+"021DD2","The signal 'AdBlue pressure' from the component 'AdBlue pressure sensor' is below the permissible range."
+"2,10E+84","Heater of AdBlue line1-Excessive voltage or short circuit to positive"
+"2,10E+85","Heater of AdBlue line1-Insufficient voltage or short circuit to ground"
+"2,10E+86","Heater of AdBlue line1-Cable has open circuit."
+"021EC3","Heater of AdBlue line2-Excessive voltage or short circuit to positive"
+"021EC4","Heater of AdBlue line2-Insufficient voltage or short circuit to ground"
+"021EC5","Heater of AdBlue line2-Cable has open circuit."
+"021F03","Heater of AdBlue line3-Excessive voltage or short circuit to positive"
+"021F04","Heater of AdBlue line3-Insufficient voltage or short circuit to ground"
+"021F05","Heater of AdBlue line3-Cable has open circuit."
+"021F43","Heater of AdBlue line4-Excessive voltage or short circuit to positive"
+"021F44","Heater of AdBlue line4-Insufficient voltage or short circuit to ground"
+"021F45","Heater of AdBlue line4-Cable has open circuit."
+"22100","The signal 'Input temperature' from the component '17B04: Temperature sensor, exhaust gas upstream of SCR catalytic converter' is above the permissible range."
+"22102","The signal from component 17B04: Temperature sensor, exhaust gas upstream of SCR catalytic converter is implausible or no signal."
+"22103","The component '17B04: Temperature sensor, exhaust gas upstream of SCR catalytic converter' or its electrical line has a short circuit to positive."
+"22104","The component '17B04: Temperature sensor, exhaust gas upstream of SCR catalytic converter' or its electrical line has a short circuit to ground."
+"02210D","Components 17B03: Temperature sensor, exhaust gas downstream of SCR catalytic converter and 17B04: Temperature sensor, exhaust gas upstream of SCR catalytic converter mixed up"
+"02210F","The signal 'Input temperature' from the component '17B04: Temperature sensor, exhaust gas upstream of SCR catalytic converter' is above the permissible range."
+"22110","The signal 'Input temperature' from the component '17B04: Temperature sensor, exhaust gas upstream of SCR catalytic converter' is above the permissible range."
+"22160","The signal 'Output temperature' from the component '17B03: Temperature sensor, exhaust gas downstream of SCR catalytic converter' is above the permissible range."
+"22163","The component '17B03: Temperature sensor, exhaust gas downstream of SCR catalytic converter' or its electrical line has a short circuit to positive."
+"22164","The component '17B03: Temperature sensor, exhaust gas downstream of SCR catalytic converter' or its electrical line has a short circuit to ground."
+"02216F","The signal 'Output temperature' from the component '17B03: Temperature sensor, exhaust gas downstream of SCR catalytic converter' is above the permissible range."
+"22170","The signal 'Output temperature' from the component '17B03: Temperature sensor, exhaust gas downstream of SCR catalytic converter' is above the permissible range."
+"22303","The component 'AdBlue reversing valve' or its electrical line has a short circuit to positive."
+"22304","The component 'AdBlue reversing valve' or its electrical line has a short circuit to ground."
+"22305","Component AdBlue reversing valve has an open circuit."
+"02575F","The SCR catalytic converter is not installed or damaged."
+"29652","The efficiency of the catalytic converter is too low."
+"02A243","The component 'AdBlue metering valve' or its electrical line has a short circuit to positive."
+"02A244","The component 'AdBlue metering valve' or its electrical line has a short circuit to ground."
+"02A245","Component AdBlue metering valve has an open circuit."
+"02A247","Mechanical defect in component AdBlue metering valve"
+"02AD10","The signal 'Temperature' from the component 'AdBlue metering valve' is above the permissible range."
+"02AE63","The component '17K01: AdBlue line heater relay' or its electrical line has a short circuit to positive."
+"02AE64","The component '17K01: AdBlue line heater relay' or its electrical line has a short circuit to ground."
+"02AE65","Component 17K01: AdBlue line heater relay has an open circuit."
+"02AE67","Mechanical defect in component 17K01: AdBlue line heater relay"
+"02B867","Mechanical defect in component Rail pressure control valve"
+P0001,Fuel Adjustment Regulator Control Open Circuit
+P0002,Command Line Interruption
+P0003,Fuel Adjustment Regulator Control Circuit Low
+P0004,Signal Short to Ground Adjustment Control Solenoid
+P0005,Fuel Shutoff Valve Open Circuit
+P0006,Open Circuit Fuel Shutoff Valve
+P0007,Fuel Shutoff Valve Signal High
+P0008,Signal to Positive Line Break to Ground or Short Circuit Solenoid Valve
+P0012,Camshaft Inlet Sensor Front Left Bank 1 Circuit Timing Error Low Performance Retard Valve Timing Off Engine Mechanical Error Camshaft Sensor
+P0013,Camshaft Outlet Sensor Rear Right Bank 1 Circuit Timing Error Low Performance Advance Valve Timing Off Engine Mechanical Error Camshaft Sensor
+P0016,Crankshaft Position Sensor Bank 1 Sensor A Wiring Sensor Mechanical Error
+P0017,Crankshaft Position Sensor Bank 2 Sensor A Wiring Sensor Mechanical Error
+P0018,Crankshaft Position Sensor Bank 2 Sensor B Wiring Sensor Mechanical Error
+P0020,Camshaft Inlet Sensor Front Left Bank 2 Circuit Error Wiring Camshaft Sensor Engine Electronics
+P0023,Camshaft Outlet Sensor Rear Right Bank 2 Circuit Timing Error Low Performance Retard Valve Timing Off Engine Mechanical Error Camshaft Sensor
+P0025,Outlet Valve Control Solenoid Circuit Bank 1 Performance Inlet Valves Control Solenoid Program
+P0026,Outlet Valve Control Solenoid Circuit Bank 2 Performance Outlet Valves Control Solenoid Program
+P0027,Lambda Probe Heating System Bank 1 Heater 1 Command Line Interruption Sensor Engine Electronics
+P0028,Lambda Probe Heating System Bank 1 Heater 1 Low Command Short to Ground Sensor Engine Electronics
+P0029,Lambda Probe Heating System Bank 1 Heater 1 High Command to Positive Short Circuit Sensor Engine Electronics
+P0034,Turbo Vacuum Adjustment Valve Error Wiring Turbo Vacuum Adjustment Valve Engine Electronics
+P0035,Turbo Vacuum Adjustment Valve Error Circuit High Wiring Turbo Vacuum Adjustment Valve Engine Electronics Cable Connections Control
+P0036,O2 Sensor 2 Bank 1 Heating Circuit Low Wiring Sensor Engine Electronics Short to Ground
+P0037,Turbo Charge Bypass Valve Error Performance Wiring Bypass Valve
+P0038,O2 Sensor Nonsensical Signal Bank 1 Sensor 2 Bank 2 Sensor 2 Wiring
+P0039,O2 Sensor 3 Bank 1 Heating Circuit Low Wiring Sensor Engine Electronics Short to Ground
+P0040,Turbo Pressure Control Solenoid Open Circuit Wiring Pressure Control Solenoid
+P0041,Turbo Pressure Control Solenoid Circuit Low Wiring Short to Ground Pressure Control Solenoid
+P0042,Turbo Turbine Speed Low Mechanical Error
+P0043,O2 Sensor 1 Bank 2 Heating Circuit Low Command Short to Ground Sensor Engine Electronics
+P0044,O2 Sensor Bank 1 Sensor 2 Heating Resistance Error Wiring O2 Sensor
+P0045,O2 Sensor 2 Bank 2 Heating Circuit Error Wiring Sensor Engine Electronics
+P0046,O2 Sensor Bank 2 Sensor 1 Heating Resistance Error Wiring O2 Sensor
+P0047,O2 Sensor Bank 2 Sensor 3 Heating Resistance Error Wiring O2 Sensor
+P0048,O2 Sensor 2 Bank 2 Heating Circuit Low Command Short to Ground Sensor Engine Electronics
+P0049,Air Assisted Injector Performance Error Air Assisted Injector
+P0050,Air Assisted Injector Circuit High Command to Positive Short Circuit Sensor Engine Electronics
+P0051,Air Inlet Mass Meter Air Pressure Control Faulty Air Mass Meter Mechanical Error
+P0052,Ambient Air Temperature Sensor Performance Issue Ambient Air Temperature Sensor
+P0054,Ambient Air Temperature Sensor Input Signal Low Command to Positive Short Circuit Sensor Engine Electronics
+P0055,Inlet Control Valve Solenoid Bank 1 Circuit Error Wiring Inlet Solenoid Valve Engine Electronics
+P0056,Inlet Control Valve Solenoid Bank 1 Circuit Low Command Short to Ground Sensor Engine Electronics
+P0057,Outlet Control Valve Solenoid Bank 1 Circuit Error Wiring Inlet Solenoid Valve Engine Electronics
+P0058,Outlet Control Valve Solenoid Bank 1 Circuit High Command to Positive Short Circuit Sensor Engine Electronics
+P0059,Inlet Control Valve Solenoid Bank 2 Circuit Low Command Short to Ground Sensor Engine Electronics
+P0080,Outlet Control Valve Solenoid Bank 2 Circuit Error Wiring Inlet Solenoid Valve Engine Electronics
+P0081,Fuel Common Pressure System Low Fuel Pump Fuel Pressure Regulator Fuel Output Blocked Mechanical Error
+P0082,Fuel Common Pressure System High Fuel Pump Fuel Pressure Regulator Fuel Input Blocked Mechanical Error
+P0083,Fuel Metering Solenoid Open Circuit Open Circuit Fuel Metering Solenoid Engine Electronics
+P0084,Fuel Metering Solenoid to Positive Short Circuit Command to Positive Short Circuit Sensor Engine Electronics
+P0085,Fuel System Low Leakage Cable System Pressure Sensor Mechanical Error
+P0087,Inlet Air Temperature Sensor 2 Circuit Error Wiring Loose Pin Connections Sensor Engine Electronics
+P0088,Inlet Air Temperature Sensor 2 Circuit Performance Error Wiring Loose Pin Connections Sensor Engine Electronics
+P0089,Inlet Air Temperature Sensor 2 Circuit Input Signal High Command to Positive Short Circuit Sensor Short Circuit Engine Electronics
+P0090,Air Mass Meter Air Adjustment Valve Sensor Circuit Failure Wiring Air Mass Meter Engine Electronics
+P0091,Air Mass Meter Circuit Limit Performance Issue Inlet Valves Control Solenoid Program
+P0092,Manifold Pressure Sensor Circuit Failure Wiring Manifold Pressure Sensor Barometric Sensor Engine Electronics
+P0093,Manifold Pressure Sensor Performance Failure Manifold Inlet and Outlet Circuit Leakage Program Air Flow Sensor Barometric Sensor
+P0094,Manifold Pressure Sensor Input Signal Low Line Short to Ground Air Mass Meter Barometric Sensor Engine Electronics
+P0095,Manifold Pressure Sensor Input Signal High Line to Positive Short Circuit Air Mass Meter Barometric Sensor Engine Electronics
+P0096,Inlet Air Temperature Sensor Circuit Failure Wiring Sensor Engine Electronics
+P0097,Inlet Air Temperature Sensor Circuit Input Signal Low Line Short to Ground Sensor Open Circuit Engine Electronics
+P0098,Engine Coolant Temperature Sensor Input Signal Low Thermostat Loose Pin Connections Sensor Program Short to Ground
+P0099,Engine Coolant Temperature Sensor Input Signal High Thermostat Loose Pin Connections Sensor Program to Positive Short Circuit Open Circuit to Ground
+P0100,Engine Coolant Temperature Sensor Input Signal Intermittent Wiring Loose Pin Connections Sensor Engine Electronics
+P0101,Throttle Position Sensor Gas Pedal Position Sensor 1 Circuit Failure Wiring Throttle Gas Pedal Sensor Engine Electronics
+P0102,Throttle Position Sensor Gas Pedal Position Sensor 1 Circuit Input Signal Low Command Short to Ground Sensor Engine Electronics
+P0104,Throttle Position Sensor Gas Pedal Position Sensor 1 Circuit Intermittent Failure Loose Cable or Pin Connections
+P0105,Closed Loop Fuel Control Insufficient Coolant Temperature Thermostat or Sensor Circuit Failure
+P0106,Idle Operation Insufficient Coolant Temperature Thermostat or Sensor Circuit Failure
+P0107,Inlet Air Temperature Too High Sensor Failure Mechanical Failure or Digital Engine Electronics
+P0108,Coolant Thermostat Failure Thermostat Mechanical Failure
+P0129,O2 Sensor Failure Bank 1 Sensor 1 Short Circuit in Bank 1 Circuit Bank 1 Sensor Engine Electronics Program
+P0130,O2 Sensor Circuit High Voltage Bank 1 Sensor 1 To Positive Short Circuit Sensor Engine Electronics Failure
+P0131,O2 Sensor Circuit Slow Response Bank 1 Sensor 1 Lambda Heating Failure Program Sensor
+P0132,O2 Sensor Heater Circuit Failure Bank 1 Sensor 1 Fuse Wiring Sensor Engine Electronics
+P0133,O2 Sensor Circuit Low Voltage Bank 1 Sensor 2 Short Circuit in Bank 1 Circuit Bank 1 Sensor Engine Electronics Wiring
+P0134,O2 Sensor Circuit Slow Response Bank 1 Sensor 2 Lambda Heating Failure Wiring Sensor
+P0135,O2 Sensor Circuit No Activity Detected Bank 1 Sensor 2 Software Open Circuit Lambda Heating Sensor
+P0136,O2 Sensor Circuit Failure Bank 1 Sensor 3 Short Circuit in Bank 1 Circuit Bank 1 Sensor Engine Electronics Wiring
+P0137,O2 Sensor Circuit Slow Response Bank 1 Sensor 3 Lambda Heating Failure Wiring Sensor
+P0138,O2 Sensor Heater Circuit Failure Bank 1 Sensor 3 Fuse Program Sensor Engine Electronics
+P0139,Fuel System Timing Failure Gasoline Pump Injector Failure
+P0140,O2 Sensor Circuit Low Voltage Bank 2 Sensor 1 Fuse Wiring Sensor Engine Electronics
+P0141,O2 Sensor Heater Circuit Failure Bank 2 Sensor 1 Fuse Wiring Sensor Engine Electronics
+P0142,O2 Sensor Circuit Low Voltage Bank 2 Sensor 2 Fuse Wiring Sensor Engine Electronics
+P0143,O2 Sensor Circuit Slow Response Bank 2 Sensor 2 Lambda Heating Failure Wiring Sensor
+P0144,O2 Sensor Circuit Failure Bank 2 Sensor 3 Software Open Circuit Lambda Heating Sensor
+P0145,O2 Sensor Circuit High Voltage Bank 2 Sensor 3 To Positive Short Circuit Sensor Engine Electronics Failure
+P0146,Fuel Temperature Too High Wiring Fuel Temperature Sensor Failure Mechanical Failure
+P0147,System Too Lean Bank 2 Air Intake Quantity Failure Fuel Pressure Failure Pump Injector Tank Air Release Valve EGR Valve
+P0148,Fuel Mixture Circuit Failure Fuel Position Sensor
+P0149,Fuel Mixture Sensor Circuit Low Input Fuel Position Sensor Short Circuit Engine Electronics
+P0150,Fuel Temperature Sensor A Circuit Failure Fuel Temperature Sensor
+P0151,Fuel Temperature Sensor A Circuit Low Input To Positive Short Circuit Fuel Temperature Sensor Wiring Engine Electronics
+P0152,Fuel Temperature Sensor A Circuit Intermittent Wiring Fuel Temperature Sensor Engine Electronics
+P0153,Fuel Temperature Sensor B Circuit Limit Performance Short to Ground Fuel Temperature Sensor Wiring Engine Electronics
+P0154,Fuel Temperature Sensor B Circuit Low Input To Positive Short Circuit Fuel Temperature Sensor Wiring Engine Electronics
+P0155,Fuel Line Pressure Sensor Circuit Failure Wiring Rail Pressure Sensor Failure
+P0156,Fuel Line Pressure Sensor Circuit Limit Performance Wiring Rail Pressure Sensor Failure Short to Ground
+P0157,Fuel Line Pressure Sensor Circuit High Input Wiring Weak Connector Connections Fuel Temperature Sensor
+P0158,Engine Oil Temperature Sensor Circuit Failure EOT Wiring Engine Oil Temperature Sensor Engine Electronics
+P0159,Engine Oil Temperature Sensor Intermittent Loose Cable or Pin Connections Wiring Sensor Engine Electronics
+P0160,Injector Circuit Failure Wiring Injector Engine Electronics
+P0161,Injector Circuit Failure Cylinder 1 Wiring Injector Engine Electronics
+P0202,Injector Circuit Failure Cylinder 4 Wiring Injector Engine Electronics
+P0204,Injector Circuit Failure Cylinder 6 Wiring Injector Engine Electronics
+P0205,Injector Circuit Failure Cylinder 8 Wiring Injector Engine Electronics
+P0206,Injector Circuit Failure Cylinder 10 Wiring Injector Engine Electronics
+P0207,Injector Circuit Failure Cylinder 12 Wiring Injector Engine Electronics
+P0208,Cold Start Injector 2 Circuit Failure Wiring Cold Start Injector Engine Electronics
+P0209,Injection Timing Control Circuit Failure Wiring Injection Timing Control Solenoid Engine Electronics
+P0210,Transmission Overheat Condition Wiring Transmission Temperature Sensor Transmission Control Module
+P0211,Gas Pedal Position Sensor Throttle Position Sensor 2 Circuit Failure Program Throttle Position Sensor Gas Throttle Position Sensor Switch Engine Electronics
+P0212,Gas Pedal Position Sensor Throttle Position Sensor 2 Circuit Low Input Throttle Position Sensor Gas Throttle Position Sensor Short to Ground Engine Electronics
+P0213,Gas Pedal Position Sensor Throttle Position Sensor 2 Circuit Intermittent Loose Cable or Pin Connections Program Sensor Engine Electronics
+P0214,Gas Pedal Position Sensor Throttle Position Sensor 3 Circuit Failure Program Throttle Position Sensor Gas Throttle Position Sensor Switch Engine Electronics
+P0215,Gas Pedal Position Sensor Throttle Position Sensor 3 Circuit Low Input Throttle Position Sensor Gas Throttle Position Sensor Short to Ground Engine Electronics
+P0216,Gas Pedal Position Sensor Throttle Position Sensor 3 Circuit High Input Throttle Position Sensor Gas Throttle Position Sensor To Positive Short Circuit Engine Electronics
+P0217,Fuel Pump Primary Circuit Failure Program Fuel Pump Relay Engine Electronics
+P0218,Fuel Pump Secondary Circuit Low Short to Ground Fuel Pump Relay Engine Electronics
+P0219,Fuel Pump Secondary Circuit Intermittent Loose Cable or Pin Connections Program Sensor Engine Electronics
+P0220,Turbo Pressure Above Limit Value Clean Turbo Pipes Turbo Modulator Valve Failure Turbo Wastegate Control
+P0221,Turbo Charge Pressure Sensor A Performance Check Turbo Hose Connections Check Turbo Pressure Sensor
+P0222,Turbo Charge Boost Sensor A Input Signal High Signal To Positive Line Break or Short Circuit Pressure Sensor Failure Engine Electronics
+P0223,Turbo Charge Boost Sensor B Performance Check Turbo Hose Connections Check Turbo Pressure Sensor
+P0224,Turbo Charge Boost Sensor B Input Signal High Signal To Positive Line Break or Short Circuit Pressure Sensor Failure Engine Electronics
+P0225,Turbo Solenoid Valve A Performance Error Replace Turbo Solenoid Module
+P0226,Turbo Solenoid Valve A Circuit Signal High Signal To Positive Line Break to Ground or Short Circuit
+P0227,Turbo Solenoid Valve B Performance Error Replace Turbo Solenoid Module
+P0228,Turbo Solenoid Valve B Circuit Signal High Signal To Positive Line Break to Ground or Short Circuit
+P0229,Injection Pump Fuel Metering Control A Limit Performance Injection Pump
+P0230,Injection Pump Fuel Metering Control A High Signal To Positive Line Break to Ground or Short Circuit
+P0231,Injection Pump Fuel Metering Control B Failure Injection Pump Engine Electronics Wiring
+P0232,Injection Pump Fuel Metering Control B Intermittent Check Wiring Cable Connections Injection Pump Engine Electronics
+P0233,Injector Circuit High Cylinder 1 Signal To Positive Line Break to Ground or Short Circuit Injector Engine Electronics
+P0234,Injector Circuit Low Cylinder 2 Signal Short to Ground Injector Engine Electronics
+P0235,Cylinder 2 Balance Error Wiring Fuel System Check Engine Electronics
+P0236,Injector Circuit Low Cylinder 3 Signal Short to Ground Injector Engine Electronics
+P0237,Injector Circuit High Cylinder 3 Signal To Positive Line Break to Ground or Short Circuit Injector Engine Electronics
+P0238,Injector Circuit Low Cylinder 4 Signal Short to Ground Injector Engine Electronics
+P0239,Injector Circuit High Cylinder 4 Signal To Positive Line Break to Ground or Short Circuit Injector Engine Electronics
+P0240,Injector Circuit Low Cylinder 5 Signal Short to Ground Injector Engine Electronics
+P0241,Injector Circuit Low Cylinder 6 Signal Short to Ground Injector Engine Electronics
+P0242,Injector Circuit High Cylinder 6 Signal To Positive Line Break to Ground or Short Circuit Injector Engine Electronics
+P0243,Injector Circuit Low Cylinder 7 Signal Short to Ground Injector Engine Electronics
+P0244,Injector Circuit High Cylinder 7 Signal To Positive Line Break to Ground or Short Circuit Injector Engine Electronics
+P0245,Cylinder 7 Balance Error Wiring Fuel System Check Engine Electronics
+P0246,Injector Circuit Low Cylinder 8 Signal Short to Ground Injector Engine Electronics
+P0247,Cylinder 8 Balance Error Wiring Fuel System Check Engine Electronics
+P0248,Injector Circuit High Cylinder 9 Signal To Positive Line Break to Ground or Short Circuit Injector Engine Electronics
+P0249,Injector Circuit High Cylinder 10 Signal To Positive Line Break to Ground or Short Circuit Injector Engine Electronics
+P0250,Injector Circuit High Cylinder 11 Signal To Positive Line Break to Ground or Short Circuit Injector Engine Electronics
+P0251,Injector Circuit Low Cylinder 12 Signal Short to Ground Injector Engine Electronics
+P0252,Vehicle Speed Signal Nonsensical Wiring VSS Mechanical Error
+P0253,Turbo Super Charge Pressure Low Mechanical Error
+P0254,Cylinder 1 Misfire Detected Engine Mechanical Error Wiring Ignition Fuel System Injector Air Mass Meter Engine Electronics
+P0255,Cylinder 3 Misfire Detected Engine Mechanical Error Wiring Ignition Fuel System Injector Air Mass Meter Engine Electronics
+P0256,Cylinder 5 Misfire Detected Engine Mechanical Error Wiring Ignition Fuel System Injector Air Mass Meter Engine Electronics
+P0257,Cylinder 7 Misfire Detected Engine Mechanical Error Wiring Ignition Fuel System Injector Air Mass Meter Engine Electronics
+P0258,Cylinder 9 Misfire Detected Engine Mechanical Error Wiring Ignition Fuel System Injector Air Mass Meter Engine Electronics
+P0259,Cylinder 11 Misfire Detected Engine Mechanical Error Wiring Ignition Fuel System Injector Air Mass Meter Engine Electronics
+P0260,Fuel Mixture Low Fuel System Mechanical Error
+P0261,High RPM Mixture Error Engine Mechanical Error Wiring Ignition Fuel System Injector
+P0262,Engine Load Signal Sensor A Circuit Error Wiring Load Signal Sensor A Mechanical Error
+P0263,Crankshaft RPM Signal Nonsensical Wiring Engine Electronics Crankshaft RPM Sensor
+P0264,Crankshaft RPM Signal Missing Wiring Sensor Engine Electronics Cable Continuity
+P0265,Knock Sensor Error Wiring Sensor Engine Electronics Cable Continuity
+P0266,Knock Sensor Bank 1 Circuit 1 Limit Performance Wiring Sensor Cable Continuity
+P0267,Knock Sensor Bank 1 Circuit 1 High Input Signal To Positive Line Break to Ground or Short Circuit
+P0268,Knock Sensor Bank 2 Circuit 2 Failure Wiring Sensor Cable Continuity
+P0269,Knock Sensor Bank 2 Circuit 2 High Input Signal To Positive Line Break to Ground or Short Circuit
+P0270,Crankshaft Position Sensor Circuit Failure Wiring Sensor Engine Electronics
+P0271,Crankshaft Position Sensor Circuit Low Input Signal Short to Ground
+P0272,Camshaft Position Sensor Circuit Failure Sensor A Circuit 1 Wiring Sensor Engine Electronics
+P0273,Camshaft Position Sensor Circuit Limit Performance Sensor A Circuit 1 Air Vortex Gap Excessive Sensor Itself Faulty Program
+P0274,Camshaft Position Sensor Circuit High Input Sensor A Circuit 1 Signal To Positive Line Break to Ground or Short Circuit
+P0275,Camshaft Position Sensor Circuit Failure Sensor A Circuit 2 Wiring Sensor Engine Electronics
+P0276,Camshaft Position Sensor Circuit Limit Performance Sensor A Circuit 2 Air Vortex Gap Excessive Sensor Itself Faulty Program
+P0277,Camshaft Position Sensor Circuit High Input Sensor A Circuit 2 Signal To Positive Line Break to Ground or Short Circuit
+P0278,Ignition Coil Primary Secondary Circuit Failure Wiring Ignition Coil Engine Electronics
+P0279,Ignition Coil Primary B Secondary Circuit Failure Wiring Ignition Coil Engine Electronics
+P0280,Ignition Coil Primary D Secondary Circuit Failure Wiring Ignition Coil Engine Electronics
+P0281,Ignition Coil Primary E Secondary Circuit Failure Wiring Ignition Coil Engine Electronics
+P0282,Ignition Coil Primary G Secondary Circuit Failure Wiring Ignition Coil Engine Electronics
+P0283,Ignition Coil Primary J Secondary Circuit Failure Wiring Ignition Coil Engine Electronics
+P0284,Ignition Coil Primary L Secondary Circuit Failure Wiring Ignition Coil Engine Electronics
+P0285,Camshaft Position Sensor Circuit Failure Sensor B Circuit 1 Wiring Sensor Engine Electronics
+P0286,Camshaft Position Sensor Circuit Low Input Sensor B Circuit 1 Signal Short to Ground
+P0287,Camshaft Position Sensor Circuit Intermittent Sensor B Circuit 1 Wiring Loose Pin Connections Sensor Engine Electronics
+P0288,Timing Reference High Dispersion Signal A Intermittent Wiring Pin Connection Controller Crankshaft RPM Sensor Camshaft Sensor Failure Engine Electronics
+P0289,Timing Reference High Dispersion Signal B Failure Wiring Crankshaft RPM Sensor Camshaft Sensor Failure Engine Electronics
+P0290,Timing Reference High Dispersion Signal B Too Few Knocks Wiring Crankshaft RPM Sensor Camshaft Sensor Failure Engine Electronics
+P0291,Timing Reference High Dispersion Signal B No Knock Wiring Crankshaft RPM Sensor Camshaft Sensor Failure Engine Electronics
+P0292,Glow Plug Circuit B Failure Wiring Glow Plug Relay Fuse Engine Electronics
+P0293,Glow Plug Control Unit Signal High Wiring Glow Plug Control Unit Engine Electronics
+P0294,Crankshaft Position Sensor B Circuit Limit Performance Air Vortex Gap Excessive Sensor Itself Faulty Program
+P0295,Crankshaft Position Sensor B Circuit High Input Signal To Positive Line Break to Ground or Short Circuit
+P0296,Camshaft Position Sensor Circuit Failure Sensor B Circuit 2 Wiring Sensor Engine Electronics
+P0297,Camshaft Position Sensor Circuit High Input Sensor B Circuit 2 Signal To Positive Line Break to Ground or Short Circuit
+P0298,EGR Flow Failure Pipe Connection Error EGR Solenoid Valve EGR Valve
+P0299,EGR Excessive Flow Detected Pipe Connection Error EGR Solenoid Valve EGR Valve
+P0300,EGR Circuit Limit Performance Pipe Connection Error EGR Solenoid Valve EGR Valve
+P0301,EGR Sensor A Circuit High Input Signal To Positive Line Break to Ground or Short Circuit
+P0302,EGR Sensor B Circuit High Input Signal To Positive Line Break to Ground or Short Circuit
+P0303,EGR Sensor A Circuit Failure Wiring Loose Pin Connections EGR Valve Potential Sensor Engine Electronics
+P0304,Secondary Air Injection System Failure Air Pump Air Valve Air Hoses
+P0305,Secondary Air Injection System Solenoid A Circuit Open Circuit Software Open Circuit Air Solenoid Valve Engine Electronics
+P0306,Secondary Air Injection System Solenoid B Circuit Error Program Air Solenoid Engine Electronics
+P0307,Secondary Air Injection System Solenoid B Circuit Short Circuit Software Open Circuit Air Solenoid Valve Engine Electronics
+P0308,Secondary Air Injection Pump Relay B Error Wiring Air Pump Relay Pump Engine Electronics
+P0309,Catalytic Efficiency Below Threshold Bank 1 Catalytic Converter Program O2 Sensor
+P0310,Heated Catalytic Below Threshold Bank 1 Catalytic Converter Program O2 Sensor
+P0311,Catalytic Converter Heating Sensor Bank 1 Wiring Loose Pin Connections Catalytic Converter Temperature Sensor Engine Electronics
+P0312,Catalytic Converter Heating Sensor High Input Bank 1 Wiring To Positive Short Circuit Catalytic Converter Temperature Sensor Engine Electronics
+P0313,Catalytic System Efficiency Below Threshold Bank 2 Catalytic Converter Program O2 Sensor
+P0314,Catalytic Heating Below Threshold Bank 2 Catalytic Converter Program O2 Sensor
+P0315,Main Catalytic Below Threshold Bank 2 Catalytic Converter Program O2 Sensor
+P0316,Heated Catalytic Below Threshold Bank 2 Catalytic Converter Program O2 Sensor
+P0317,Catalytic Converter Heating Sensor Bank 2 Wiring Loose Pin Connections Catalytic Converter Temperature Sensor Engine Electronics
+P0318,Catalytic Converter Heating Sensor Low Input Bank 2 Wiring Short to Ground Catalytic Converter Temperature Sensor Engine Electronics
+P0319,Catalytic Converter Heating System Error Bank 2 Wiring Relay Engine Electronics
+P0320,Fuel Tank Emission Control System Purge Control Valve Circuit Open Engine Wiring Open Circuit Tank Air Release Valve Engine Electronics
+P0321,Fuel Tank Emission Control System Ventilation Failure Wiring Tank Air Release Valve Engine Electronics
+P0322,Fuel Tank Emission Control System Ventilation Circuit Open Engine Wiring Open Circuit Tank Air Release Valve Engine Electronics
+P0323,Fuel Tank Emission Control System Pressure Sensor Failure Engine Wiring Open Circuit Tank Air Release Pressure Sensor Engine Electronics
+P0324,Fuel Tank Emission Control System Pressure Sensor Low Input Engine Wiring Short to Ground Tank Air Release Pressure Sensor Engine Electronics
+P0325,Fuel Tank Emission Control System Pressure Sensor Intermittent Program Loose Pin Connections Tank Air Release Pressure Sensor Engine Electronics
+P0326,Fuel Tank Emission Control System Leak Detected Total Leak No Flow Fuel Tank Hose Connections Problem Air Release Pressure Valve Air Release Pressure Sensor Error Engine Electronics
+P0327,Fuel Tank Emission Control System Filter Clogged Fuel Tank Hose Connections Problem Air Release Pressure Valve Air Release Pressure Sensor Error
+P0328,Fuel Tank Emission Control System Tank Air Release Valve Signal High Engine Wiring To Positive Short Circuit Tank Air Release Pressure Valve Engine Electronics
+P0329,Fuel Tank Float Sensor Circuit Limit Performance Engine Wiring Open Circuit Fuel Tank Float Sensor
+P0330,Fuel Tank Emission Control System Purge Flow Sensor Low Input Engine Wiring Short to Ground Fuel Tank Emission Control System Purge Flow Sensor Engine Electronics
+P0331,Fuel Tank Emission Control System Purge Flow Sensor High Input Engine Wiring To Positive Short Circuit Fuel Tank Emission Control System Purge Flow Sensor Engine Electronics
+P0332,Exhaust Pressure Sensor Failure Engine Wiring Open Circuit Exhaust Pressure Sensor Engine Electronics
+P0333,Exhaust Pressure Sensor Low Engine Wiring Short to Ground Exhaust Pressure Sensor Engine Electronics
+P0334,Exhaust Pressure Sensor High Engine Wiring To Positive Short Circuit Exhaust Pressure Sensor Engine Electronics
+P0335,Exhaust Pressure Sensor Intermittent Engine Wiring Open Circuit Loose Pin and Cable Connections Exhaust Pressure Sensor Engine Electronics
+P0336,Exhaust Pressure Control Valve Failure Engine Wiring Open Circuit Exhaust Pressure Control Valve Engine Electronics
+P0337,Engine Cooling Fan 1 Control Circuit Failure Engine Wiring Open Circuit Engine Cooling Fan Motor Engine Electronics
+P0338,Engine Cooling Fan 2 Control Circuit Failure Engine Wiring Open Circuit Engine Cooling Fan Motor Engine Electronics
+P0339,Engine Cooling Fan 3 Control Circuit Failure Engine Wiring Open Circuit Engine Cooling Fan Motor Engine Electronics
+P0340,Engine Cooling Fan Proportionality Control Failure Engine Wiring Open Circuit Engine Cooling Fan Motor Engine Electronics
+P0341,Exhaust Gas Recirculation System Gas Pedal Potentiometer Control System Error Wiring Loose Pin Connections Engine Electronics
+P0342,Exhaust Gas Recirculation System Gas Pedal Potentiometer Control System Signal Low Wiring Loose Pin Connections Line Break or Short to Ground EGR Valve Position Sensor Engine Electronics
+P0343,Exhaust Gas Recirculation System Gas Pedal Potentiometer Control System Signal High Wiring Loose Pin Connections Line Break or To Positive Short Circuit EGR Valve Position Sensor Engine Electronics
+P0344,Secondary Air Injection System Bank 1 Error Wiring Loose Pin Connections Hose Connections Air Solenoid Engine Electronics
+P0345,Secondary Air Injection System Bank 2 Error Wiring Loose Pin Connections Hose Connections Air Solenoid Engine Electronics
+P0346,Engine Coolant Fan Motor RPM Low Wiring Engine Coolant Fan Motor Mechanical Error
+P0347,Evaporative Emission System EVAP Pressure High Wiring Evaporative Emission Valve EVAP Mechanical Error
+P0348,Evaporative Emission System EVAP Pressure Circuit Low Leak Wiring Line Break or Short to Ground Evaporative Emission Valve EVAP
+P0349,Idle Air Control System RPM Lower Than Expected Wiring Air Control Valve Throttle Throttle Valve Engine Electronics
+P0350,Idle Air Control Circuit Error Wiring Loose Pin Connections Idle Air Control Valve Engine Electronics
+P0351,Starter Request Circuit Error Wiring Immobilizer System Relay
+P0352,Idle Air Control Circuit Intermittent Wiring Air Control Valve Loose Pin Connections Engine Electronics
+P0353,Idle Air Control Circuit Performance Wiring Air Control Valve Loose Pin Connections Engine Electronics
+P0354,Engine Coolant Fan Speed Sensor Circuit Error Wiring Loose Pin Connections and Cable Connections Coolant Fan Motor Sensor Engine Electronics
+P0355,Engine Coolant Fan Speed Sensor Circuit Performance Wiring Loose Pin Connections and Cable Connections Coolant Fan Motor Sensor Engine Electronics
+P0356,Engine Coolant Fan Speed Sensor Circuit Intermittent Wiring Loose Pin Connections and Cable Connections Coolant Fan Motor Sensor Engine Electronics
+P0357,Air Conditioner Refrigerant Pressure Sensor Circuit Failure Wiring Air Conditioner Refrigerant Pressure Sensor Engine Electronics
+P0358,Air Conditioner Refrigerant Pressure Sensor Circuit Low Input Wiring Coolant Quantity Low Complete Gas Quantity Air Conditioner Refrigerant Pressure Sensor Engine Electronics
+P0359,Air Conditioner Refrigerant Pressure Sensor Circuit High Input Wiring Coolant Quantity High Complete Gas Quantity Air Conditioner Refrigerant Pressure Sensor Engine Electronics
+P0360,Air Conditioner Refrigerant Charge Loss Leak in Air Conditioner Check Air Conditioner Pipes Air Conditioner Refrigerant Sensor
+P0361,Air Conditioner Evaporator Temperature Sensor Circuit Performance Wiring Loose Pin Connections and Cable Connections Evaporator Temperature Sensor Engine Electronics
+P0362,Air Conditioner Evaporator Temperature Sensor Circuit Low Signal Wiring Loose Pin Connections and Cable Connections Short to Ground Evaporator Temperature Sensor Engine Electronics
+P0363,Air Conditioner Evaporator Temperature Sensor Circuit Intermittent Wiring Loose Pin Connections and Cable Connections Evaporator Temperature Sensor Engine Electronics
+P0364,Inlet Air Temperature Heater A Circuit Signal Low Wiring Inlet Air Temperature Heater Line Break or Short to Ground Relay
+P0365,Inlet Air Temperature Heater A Circuit Signal High Wiring Inlet Air Temperature Heater Line Break or To Positive Short Circuit Relay
+P0366,Inlet Air Temperature Heater A Circuit Signal Open Circuit Wiring Inlet Air Temperature Heater Relay
+P0367,Catalytic Converter Pre-Exhaust Gas Temperature Sensor Circuit Bank 1 Signal Low Wiring Catalytic Converter Pre-Exhaust Gas Temperature Sensor Short to Ground Engine Electronics
+P0368,Hydraulic Steering Pressure Sensor Circuit Failure Wiring Hydraulic Steering Pressure Sensor Engine Electronics
+P0369,Hydraulic Steering Pressure Sensor Circuit Limit Performance Wiring Hydraulic Steering Pressure Sensor Bypass System
+P0370,Hydraulic Steering Pressure Sensor Circuit Low Input Wiring Hydraulic Steering Pressure Sensor Short to Ground Engine Electronics
+P0371,Hydraulic Steering Pressure Sensor Circuit High Input Wiring Hydraulic Steering Pressure Sensor To Positive Short Circuit Engine Electronics
+P0372,Hydraulic Steering Pressure Sensor Circuit Intermittent Wiring Hydraulic Steering Pressure Sensor Loose Pin Connections and Cable Check Engine Electronics
+P0373,Brake Servo Pressure Sensor Circuit Failure Wiring Brake Servo Pressure Sensor Loose Pin and Cable Connections Engine Electronics
+P0374,Brake Servo Pressure Sensor Circuit Signal High Wiring Brake Servo Pressure Sensor To Positive Short Circuit Engine Electronics
+P0375,System Voltage Failure Wiring Loose Pin and Cable Connections Battery Alternator
+P0376,System Voltage High Alternator
+P0377,Cruise Control System On Signal Error Wiring Cruise Control Switches Engine Electronics
+P0378,Cruise Control System Set Switch Fixing Signal Error Wiring Cruise Control Switches Engine Electronics
+P0379,Cruise Control System Set Switch Timing Signal Error Wiring Cruise Control Switches Engine Electronics
+P0380,Cruise Control System Pedal Sensor Error Wiring Cruise Control Pedal Sensor Engine Electronics
+P0381,Cruise Control System Brake Switch A Circuit Low Wiring Loose Pin Connections Cruise Control System Multi-Function Switch Short to Ground Mechanical Error
+P0382,Cruise Control System Vehicle Speed Signal High Mechanical Error
+P0383,Cruise Control System Input Circuit Signal Low Wiring Loose Pin Connections Cruise Control System Multi-Function Switch Short to Ground Mechanical Error
+P0384,Cruise Control System Multi-Function Switch Input Circuit A Limited Performance Wiring Cruise Control System Multi-Function Switch Bypass System
+P0385,Cruise Control System Multi-Function Switch Input Circuit A Signal High Wiring Cruise Control System Multi-Function Switch To Positive Short Circuit Mechanical Error
+P0386,Cruise Control System Vacuum Control Circuit Open Wiring Cruise Control System Vacuum Control Circuit Bypass System
+P0387,Cruise Control System Vacuum Control Circuit High Wiring Cruise Control System Vacuum Control Circuit To Positive Short Circuit Mechanical Error
+P0388,Cruise Control System Vent Control Circuit Open Wiring Cruise Control System Vent Solenoid Bypass System
+P0389,Cruise Control System Vent Control Circuit Low Wiring Cruise Control System Vent Solenoid Short to Ground Engine Electronics
+P0390,Cruise Control System Multi-Function Switch Input Circuit B Stuck Wiring Loose Pin Connections Cruise Control System Multi-Function Switch Engine Electronics
+P0391,Cruise Control System Multi-Function Switch Input Circuit B Limited Performance Wiring Loose Pin Connections Cruise Control System Multi-Function Switch Bypass System
+P0392,Cruise Control System Multi-Function Switch Input Circuit B Signal Low Wiring Loose Pin Connections Cruise Control System Multi-Function Switch Short to Ground Engine Electronics
+P0393,Cruise Control System Multi-Function Switch Input Circuit B Signal High Wiring Loose Pin Connections Cruise Control System Multi-Function Switch To Positive Short Circuit Engine Electronics
+P0394,Cruise Control System Connection Assembly Open Wiring Loose Pin Connections Cruise Control System Multi-Function Switch Bypass System
+P0395,Cruise Control System Connection Assembly Signal High Wiring Loose Pin Connections Cruise Control System Multi-Function Switch To Positive Short Circuit Engine Electronics
+P0396,Thermostat Heating Control System High Wiring Loose Pin Connections Thermostat Heating To Positive Short Circuit Engine Electronics
+P0397,CAN BUS Information Line Error Wiring Loose Pin Connections CAN BUS Information Line Engine Electronics
+P0398,Engine Electronics Memory Failure Error Engine Electronics
+P0399,Engine Electronics Operation Error Engine Electronics
+P0600,Knock Sensor Circuit Failure Engine Electronics Performance Error Knock Sensor
+P0601,Engine Electronics Vehicle Speed Sensor Output Circuit B Failure Engine Electronics
+P0602,Fuel Injector Control Module Performance Error Fuel Injector Control Module Relay
+P0603,Engine Electronics Transmission Electronics Communication Error Engine Electronics Transmission Electronics
+P0604,Starter Relay Starter Motor Voltage Low Wiring Loose Pin Connections Line Break Short to Ground Engine Electronics Starter Relay
+P0605,Alternative Fuel Control Module Backup Value Memory Error Wiring Loose Pin Connections Line Break Short to Ground Engine Electronics
+P0606,Transmission Control Module Requested MIL Illumination Transmission Control Module Requested
+P0607,Transmission MIL Request Circuit Transmission MIL Request Circuit
+P0608,Incorrect Shifting Detected TCM Incorrect Shifting Detected TCM
+P0609,TCM Supply Voltage Interrupted TCM Supply Voltage Interrupted
+P0610,Engine Torque Delivered to TCM Signal Engine Torque Delivered to TCM
+P0611,Engine Torque Signal Circuit Engine Torque Signal Circuit
+P0612,Transmission Control Module Checksum Transmission Control Module Checksum
+P0613,Throttle Pedal Position Signal 2000 Throttle Pedal Position Signal 2000
+P0614,Wheel Speed Signal 2000 Wheel Speed Signal 2000
+P0615,Performance Selector Switch Failure Performance Selector Switch Failure
+P0616,TFP Valve Position Switch Circuit TFP Valve Position Switch Circuit
+P0617,Torque Control Torque Control
+P0618,TFP Valve Position Switch Reverse with Drive Ratio TFP Valve Position Switch Reverse with Drive Ratio
+P0619,TFP Valve Position Switch Drive without Drive Ratio TFP Valve Position Switch Drive without Drive Ratio
+P0620,Internal Mode Switch No Start Wrong Range Internal Mode Switch No Start Wrong Range
+P0621,Internal Mode Switch Circuit B High Internal Mode Switch Circuit B High
+P0622,Internal Mode Switch Circuit C High Internal Mode Switch Circuit C High
+P0623,Torque Converter Clutch TCC Solenoid Circuit High Voltage Torque Converter Clutch TCC
+P0624,KickDown Switch Circuit KickDown Switch Circuit
+P0625,KickDown Switch Failed Open KickDown Switch Failed Open
+P0626,1-2 Shift Solenoid Circuit Low Voltage 1-2 Shift Solenoid Circuit Low
+P0627,1-2 Shift Solenoid Circuit High Voltage 1-2 Shift Solenoid Circuit High
+P0628,Torque Reduction Signal Circuit Requested by TCM Torque Reduction Signal Circuit Requested by TCM
+P0629,2-3 Shift Solenoid Circuit Low Voltage 2-3 Shift Solenoid Circuit Low
+P0630,2-3 Shift Solenoid Circuit High Voltage 2-3 Shift Solenoid Circuit High
+P0631,Brake Band Apply Solenoid Performance Brake Band Apply Solenoid
+P0632,Brake Band Apply Solenoid Low Voltage Brake Band Apply Solenoid Low
+P0633,Brake Band Apply Solenoid High Voltage Brake Band Apply Solenoid High
+P0634,Torque Converter Clutch Circuit Torque Converter Clutch Circuit
+P0635,Transmission Fluid Life Transmission Fluid Life
+P0636,TCC Stator Temp Switch Circuit Low TCC Stator Temp Switch Circuit Low
+P0637,4WD Low Switch Circuit Electrical 4WD Low Switch Circuit Electrical
+P0638,Throttle Position Signal Input Throttle Position Signal Input
+P0639,Throttle Position Sensor PWM Signal High Throttle Position Sensor PWM Signal High
+P0640,Engine Torque Signal High Voltage Engine Torque Signal High Voltage
+P0641,Intake Manifold Runner Control IMRC Solenoid Control Circuit Intake Manifold Runner Control
+P0642,Intake Manifold Runner Control IMRC Solenoid Control Circuit Low Voltage Intake Manifold Runner Control
+P0643,Intake Manifold Runner Control IMRC Solenoid Control Circuit High Voltage Intake Manifold Runner Control
+P0644,Fuel Level Sensor 2 Circuit Low Voltage Fuel Level Sensor 2 Circuit Low
+P0645,Fuel Level Sensor 2 Circuit High Voltage Fuel Level Sensor 2 Circuit High
+P0646,Post Catalyst Fuel Trim System Low Limit Post Catalyst Fuel Trim System
+P0647,Throttle Actuator Control TAC Motor Control Circuit Throttle Actuator Control TAC
+P0648,Control Module Throttle Actuator Position Performance Control Module Throttle Actuator
+P0649,Throttle Actuator Control TAC Module Internal Circuit Throttle Actuator Control TAC
+P0650,Throttle Actuator Control TAC Module Performance Throttle Actuator Control TAC
+P0651,Accelerator Pedal Position APP Sensor 1 Circuit High Voltage Accelerator Pedal Position APP
+P0652,Accelerator Pedal Position APP Sensor 2 Circuit Low Voltage Accelerator Pedal Position APP
+P0653,Accelerator Pedal Position APP Sensor 2 Circuit High Voltage Accelerator Pedal Position APP
+P0654,Throttle Position TP Sensor 1-2 Correlation Throttle Position TP Sensor 1-2
+P0655,Generator L Terminal Circuit High Voltage Generator L Terminal Circuit High
+P0656,ECU Failure ECU Failure
+P0657,Open or TCC PWM Solenoid Valve Circuit Short to Ground Open or TCC PWM Solenoid Valve
+P0658,Heated Oxygen Sensor HO2S Heater Current Monitor Control Circuit Banks 1 and 2 Sensor 1 Heated Oxygen Sensor HO2S
+P0659,Heated Oxygen Sensor HO2S Heated Oxygen Sensor HO2S
+P0660,MAF MAP EGR Actual Measured Air Flow and TP Calculated Air Flow Not Within Range MAF MAP EGR Actual Measured Air Flow
+P0661,Manifold Absolute Pressure MAP Sensor Circuit Intermittent High Voltage Manifold Absolute Pressure MAP
+P0662,MAP Sensor Comparison Too High Baro MAP Sensor Comparison
+P0663,Intake Air Temperature IAT Sensor Circuit Intermittent Low Voltage Intake Air Temperature IAT
+P0664,Intake Resonance Switchover Solenoid Control Circuit Intake Resonance Switchover Solenoid
+P0665,Engine Coolant Temperature ECT Sensor Circuit Intermittent High Voltage Engine Coolant Temperature ECT
+P0666,Engine Coolant Temp Signal Out of Range Low Engine Coolant Temp Signal
+P0667,Throttle Position TP Sensor 1 Circuit Throttle Position TP Sensor 1
+P0668,Throttle Position TP Sensor Circuit Intermittent Low Voltage Throttle Position TP Sensor
+P0669,Heated Oxygen Sensor HO2S Circuit Low Variance Bank 1 Sensor 1 Heated Oxygen Sensor HO2S
+P0670,Heated Oxygen Sensor HO2S Insufficient Switching Bank 1 Sensor 1 Heated Oxygen Sensor HO2S
+P0671,Heated Oxygen Sensor HO2S Lean Sensor 1 Bank 1 Mean Heated Oxygen Sensor HO2S
+P0672,Heated Oxygen Sensor HO2S Rich Sensor 1 Bank 1 Mean Heated Oxygen Sensor HO2S
+P0673,Heated Oxygen Sensor HO2S Bank 1 Sensor 2 Rich or High Voltage Heated Oxygen Sensor HO2S
+P0674,Heated Oxygen Sensor HO2S Transition Time Ratio Bank 1 Sensor 2 Heated Oxygen Sensor HO2S
+P0675,Heated Oxygen Sensor HO2S Bank 1 Sensor 3 Rich or High Voltage Heated Oxygen Sensor HO2S
+P0676,Heated Oxygen Sensor HO2S Cross Counts Bank 1 Sensor 3 Heated Oxygen Sensor HO2S
+P0677,Heated Oxygen Sensor HO2S Transition Time Ratio Bank 2 Sensor 1 Heated Oxygen Sensor HO2S
+P0678,Heated Oxygen Sensor HO2S Lean Bank 2 Sensor 1 Mean Heated Oxygen Sensor HO2S
+P0679,Heated Oxygen Sensor HO2S Rich Bank 2 Sensor 1 Mean Heated Oxygen Sensor HO2S
+P0680,Heated Oxygen Sensor HO2S Bank 2 Sensor 2 Rich or High Voltage Heated Oxygen Sensor HO2S
+P0681,Heated Oxygen Sensor HO2S Cross Counts Bank 2 Sensor 2 Heated Oxygen Sensor HO2S
+P0682,Heated Oxygen Sensor HO2S Bank 2 Sensor 3 Lean System or Low Voltage Heated Oxygen Sensor HO2S
+P0683,Heated Oxygen Sensor HO2S Bank 2 Sensor 3 Rich or High Voltage Heated Oxygen Sensor HO2S
+P0684,Heated Oxygen Sensor HO2S Cross Counts Bank 2 Sensor 3 Heated Oxygen Sensor HO2S
+P0685,Bank Fuel Trim Offset Bank Fuel Trim Offset
+P0686,Engine Oil Temperature Circuit Engine Oil Temperature Circuit
+P0687,EOT Circuit Performance EOT Circuit Performance
+P0688,EOT Sensor Circuit High Voltage EOT Sensor Circuit High Voltage
+P0689,Engine Oil Pressure EOP Switch Circuit Engine Oil Pressure EOP Switch
+P0690,Injector Control Circuit Injector Control Circuit
+P0691,Mass Air Flow Circuit Intermittent High Mass Air Flow Circuit
+P0692,Mass Air Flow Circuit Intermittent Low Mass Air Flow Circuit
+P0693,Injection Pump Calibration Circuit Injection Pump Calibration Circuit
+P0694,Fuel Pump Secondary Circuit Low Fuel Pump Secondary Circuit
+P0695,Supercharger System Overboost Supercharger System
+P0696,Last Test Failed SCC ENTER More Information Last Test Failed
+P0697,Accelerator Pedal Position Sensor 2 Accelerator Pedal Position Sensor
+P0698,Accelerator Pedal Position Sensor 1 Accelerator Pedal Position Sensor
+P0699,Injectors Faulty Wiring Injectors Faulty Wiring
+P0700,Accelerator Pedal Position APP Sensor 1 Circuit Accelerator Pedal Position
+P0701,Accelerator Pedal Position Sensor 1 Circuit Low Voltage Accelerator Pedal Position Sensor
+P0702,Accelerator Pedal Position Sensor 1 Circuit High Voltage Accelerator Pedal Position Sensor
+P0703,Accelerator Pedal Position APP Sensor 2 Circuit Accelerator Pedal Position
+P0704,Accelerator Pedal Position Sensor 2 Circuit Performance Accelerator Pedal Position Sensor
+P0705,Accelerator Pedal Position Sensor 2 Circuit Low Voltage Accelerator Pedal Position Sensor
+P0706,Accelerator Pedal Position Sensor 2 Circuit High Voltage Accelerator Pedal Position Sensor
+P0707,Accelerator Pedal Position Sensor 3 Circuit Accelerator Pedal Position Sensor
+P0708,Accelerator Pedal Position Sensor 3 Circuit Low Voltage Accelerator Pedal Position Sensor
+P0709,Ignitor Circuit Ignitor Circuit
+P0710,Ignition Coil 2 Primary Feedback Circuit Ignition Coil 2 Primary
+P0711,EI System or Ignition Control Extra or Missing EI System or Ignition Control
+P0712,Crank RPM Too Low Crank RPM Too Low
+P0713,CKP Circuit CKP Circuit
+P0714,BM Output High Pulse Detected When GND Cyl 2 BM Output High Pulse Detected
+P0715,BM Output High Pulse Detected When GND Cyl 3 BM Output High Pulse Detected
+P0716,BM Output High Pulse Detected When GND Cyl 5 BM Output High Pulse Detected
+P0717,BM Output High Pulse Detected When GND Cyl 8 BM Output High Pulse Detected
+P0718,Ignition Coil Group 1 Control Circuit Ignition Coil Group 1 Control
+P0719,Ignition Coil Control Circuit Low Voltage Ignition Coil Control Circuit
+P0720,BM Cylinder 2 Not Activated After Transition BM Cylinder 2 Not Activated
+P0721,BM Cylinder 4 Not Activated After Transition BM Cylinder 4 Not Activated
+P0722,BM Cylinder 6 Not Activated After Transition BM Cylinder 6 Not Activated
+P0723,BM 4X Reference Circuit Too Many Pulses BM 4X Reference Circuit Too Many
+P0724,Crankshaft Position CKP Sensor AB Correlation Crankshaft Position CKP Sensor AB
+P0725,BM 24X Reference Circuit High Voltage BM 24X Reference Circuit High
+P0726,BM Cam Pulse to 4X Reference Pulse BM Cam Pulse to 4X Reference
+P0727,Misfire Detected Rough Road Data Unusable Misfire Detected Rough Road
+P0728,Wheel Speed Sensor 1 G Sensor Circuit Performance Wheel Speed Sensor 1 G
+P0729,Wheel Speed Sensor 1 G Sensor Circuit Low Voltage Wheel Speed Sensor 1 G
+P0730,Wheel Speed Sensor 1 G Sensor Circuit Intermittent Wheel Speed Sensor 1 G
+P0731,Wheel Speed Sensor 2 G Sensor Circuit Performance Wheel Speed Sensor 2 G
+P0732,Wheel Speed Sensor 2 G Sensor Circuit Low Voltage Wheel Speed Sensor 2 G
+P0733,Wheel Speed Sensor 2 G Sensor Circuit High Voltage Wheel Speed Sensor 2 G
+P0734,Exhaust Gas Recirculation System Valve 1 Exhaust Gas Recirculation System
+P0735,Exhaust Gas Recirculation EGR Closed Position Performance Exhaust Gas Recirculation EGR
+P0736,Exhaust Gas Recirculation System Valve 3 Exhaust Gas Recirculation System
+P0737,EGR Air Intrusion Exhaust Supply in EGR Valve EGR Air Intrusion Exhaust Supply
+P0738,Intake Manifold Pressure Sensor Circuit Intake Manifold Pressure Sensor
+P0739,EGR Vacuum System Leak EGR Vacuum System Leak
+P0740,Fuel Tank Pressure System Fuel Tank Pressure System
+P0741,Intake Air Low Pressure Switch Circuit High Voltage Intake Air Low Pressure
+P0742,Intake Air High Pressure Switch Circuit High Voltage Intake Air High Pressure
+P0743,Fuel Level Sensor 2 Circuit Performance Fuel Level Sensor 2 Circuit
+P0744,Fuel Level Sensor 2 Circuit Low Voltage Fuel Level Sensor 2 Circuit
+P0745,Evaporative Emission EVAP System Flow During Non-Purge Evaporative Emission EVAP System
+P0746,EVAP Vacuum Switch High Voltage During IGN On EVAP Vacuum Switch High Voltage
+P0747,Barometric Pressure Sensor Performance Barometric Pressure Sensor
+P0748,Cooling Fan Control System Cooling Fan Control System
+P0749,Cooling Fan 1 Control Circuit High Cooling Fan 1 Control Circuit
+P0750,Cooling Fan Speed Sensor Circuit Cooling Fan Speed Sensor Circuit
+P0751,Cooling Fan Speed Output Circuit Cooling Fan Speed Output Circuit
+P0752,Engine Cooling System Performance Engine Cooling System
+P0753,Cooling Fan System Performance Cooling Fan System Performance
+P0754,Start Signal Circuit Start Signal Circuit
+P0755,Vehicle Speed Sensor Circuit Intermittent Vehicle Speed Sensor Circuit
+P0756,Theft Deterrent Fuel Enable Signal Not Received Theft Deterrent Fuel
+P0757,Theft Deterrent Fuel Enable Signal Not Correct Theft Deterrent Fuel
+P0758,Idle Speed Low Idle Air Control IAC System Not Responding Idle Speed Low Idle Air
+P0759,Throttle Control System Backup System Performance Throttle Control System
+P0760,Electronic System Throttle Position Electronic System Throttle Position
+P0761,Electronic Throttle Module Electronic Throttle Module
+P0762,Electronic Throttle Module PCM Communication Electronic Throttle Module PCM
+P0763,Throttle Actuator Control TAC Module Internal Circuit Throttle Actuator Control TAC
+P0764,Minimum Throttle Position Not Learned Minimum Throttle Position Not
+P0765,Heated Windshield Request Problem Heated Windshield Request Problem
+P0766,A/C Low Side Temperature Sensor Failure A/C Low Side Temperature Sensor
+P0767,A/C Evaporator Temp Sensor Circuit High Voltage A/C Evaporator Temp Sensor
+P0768,A/C System Temp Sensor Low Voltage A/C System Temp Sensor Low
+P0769,A/C Request Circuit Low Voltage A/C Request Circuit Low Voltage
+P0770,Air Conditioner A/C Refrigerant Overpressure A/C Disabled Air Conditioner A/C
+P0771,A/C System High Pressure High Temperature A/C System High Pressure High
+P0772,A/C System Performance A/C System Performance
+P0773,A/C Refrigerant Condition Too Low A/C Refrigerant Condition Too Low
+P0774,A/C Clutch Status Circuit Low Voltage A/C Clutch Status Circuit
+P0775,Throttle Valve Position Not Learned During Rest Throttle Valve Position Not
+P0776,Cruise Control Servo Indicates Low Cruise Control Servo Indicates
+P0777,Cruise Control Power Management Mode Cruise Control Power Management
+P0778,Transaxle Not in Drive Cruise Control Disabled Transaxle Not in Drive Cruise
+P0779,Cruise Vacuum Solenoid Cruise Vacuum Solenoid
+P0780,Banking Control Active Cruise Control Disabled Banking Control Active
+P0781,Cruise Servo Brain High During Non-Cruise Cruise Servo Brain High
+P0782,Traction Control Torque Request Circuit Traction Control Torque Request Circuit
+P0783,ASR Active Circuit Low Too Long ASR Active Circuit Low Too Long
+P0784,Stoplamp Switch Circuit Stoplamp Switch Circuit
+P0785,BBV Sensor Circuit High Voltage BBV Sensor Circuit High Voltage
+P0786,BBV Sensor Circuit Low Vacuum BBV Sensor Circuit Low Vacuum
+P0787,Cruise Circuit Low Voltage Carrier Cruise Circuit Low Voltage Carrier
+P0788,Cruise Direction Circuit Low Voltage Cruise Direction Circuit Low Voltage
+P0789,Cruise Control Disabled Cruise Control Disabled
+P0790,Cruise Control Clutch Control Circuit High Cruise Control Clutch Control
+P0791,Engine Retard or Close Retard Detected Engine Retard or Close
+P0792,TCM Internal Watchdog Operation TCM Internal Watchdog Operation
+P0793,Serial Communication Problem with Device 1 Serial Communication Problem with Device 1
+P0794,Knock Sensor KS Module Performance Knock Sensor KS Module Performance
+P0795,IPC Loss of Serial Data IPC Loss of Serial Data
+P0796,Serial Communication Problem with Device 6 Serial Communication Problem with Device 6
+P0797,Serial Communication Problem with Device 8 Serial Communication Problem with Device 8
+P0798,PZM Loss of Serial Data PZM Loss of Serial Data
+P0799,IPM Loss of Serial Data IPM Loss of Serial Data
+P0800,Engine Oil Level Switch Circuit Engine Oil Level Switch Circuit
+P0801,Low Coolant Circuit Low Coolant Circuit
+P0802,Cylinder Select Cylinder Select
+P0803,Customer Snapshot Request Data Available Customer Snapshot Request Data
+P0804,Theft Deterrent Fuel Enable Signal Not Received Theft Deterrent Fuel
+P0805,ECT Pull-Up Resistor ECT Pull-Up Resistor
+P0806,Theft Deterrent Mode Active Theft Deterrent
+P0807,Theft Deterrent Fuel Disable Signal Received Theft Deterrent
+P0808,Ignition 1 Switch Circuit Ignition 1 Switch Circuit
+P0809,PCM Stack Overflow PCM Stack Overflow
+P0810,Generator F Terminal Circuit Generator F Terminal Circuit
+P0811,5 Volt Reference 2 Circuit 5 Volt Reference 2 Circuit
+P0812,Driver 1 Input High Voltage Driver 1 Input High Voltage
+P0813,Vehicle Speed Output Circuit Vehicle Speed Output Circuit
+P0814,Traction Control Delivered Torque Output Circuit Traction Control Delivered Torque
+P0815,Driver 1 Line 7 Driver 1 Line 7
+P0816,Fan 1 Relay Control Circuit Fan 1 Relay Control Circuit
+P0817,Cruise Control Inhibiting Output Circuit Cruise Control Inhibiting Output
+P0818,Driver 2 Line 6 Driver 2 Line 6
+P0819,Cooling Fan Control Circuits Cooling Fan Control Circuits
+P0820,Oil Life Lamp Control Circuit Oil Life Lamp Control Circuit
+P0821,Driver 3 Line 5 Driver 3 Line 5
+P0822,ABS Unit Expected ABS Unit Expected
+P0823,Driver 4 Line 1 Driver 4 Line 1
+P0824,Low Engine Oil Level Lamp Control Circuit Low Engine Oil Level Lamp
+P0825,Engine Hot Lamp Control Circuit Engine Hot Lamp Control Circuit
+P0826,Speedometer Control Circuit Speedometer Control Circuit
+P0827,Driver 5 ECU Failure Driver 5 ECU Failure
+P0828,Driver 5 Line 1 Driver 5 Line 1
+P0829,Driver 5 Line 2 Driver 5 Line 2
+P0830,Driver 5 Line 7 Driver 5 Line 7
+P0831,Delivered Torque Circuit Failure Delivered Torque Circuit Failure
+P0832,Coolant Gauge Circuit Low Voltage Coolant Gauge Circuit Low Voltage
+P0833,Remote Keyless Entry Circuit Low Remote Keyless Entry Circuit Low
+P0834,Transmission Control Module TCM Requested MIL Illumination Transmission Control Module TCM
+P0835,Transmission MIL Request Circuit Transmission MIL Request Circuit
+P0836,Incorrect Shifting Detected TCM Incorrect Shifting Detected TCM
+P0837,TCM Supply Voltage Interrupted TCM Supply Voltage Interrupted
+P0838,Engine Torque Delivered to TCM Signal Engine Torque Delivered to TCM
+P0839,Engine Torque Signal Circuit Engine Torque Signal Circuit
+P0840,Transmission Control Module Checksum Transmission Control Module Checksum
+P0841,Throttle Pedal Position Signal 2000 Throttle Pedal Position Signal 2000
+P0842,Wheel Speed Signal 2000 Wheel Speed Signal 2000
+P0843,Performance Selector Switch Failure Performance Selector Switch Failure
+P0844,TFP Valve Position Switch Circuit TFP Valve Position Switch Circuit
+P0845,Torque Control Torque Control
+P0846,TFP Valve Position Switch Reverse with Drive Ratio TFP Valve Position Switch Reverse
+P0847,TFP Valve Position Switch Drive without Drive Ratio TFP Valve Position Switch Drive
+P0848,Internal Mode Switch No Start Wrong Range Internal Mode Switch No Start
+P0849,Internal Mode Switch Circuit B High Internal Mode Switch Circuit B High
+P0850,Internal Mode Switch Circuit C High Internal Mode Switch Circuit C High
+P0851,Torque Converter Clutch TCC Solenoid Circuit High Voltage Torque Converter Clutch TCC
+P0852,KickDown Switch Circuit KickDown Switch Circuit
+P0853,KickDown Switch Failed Open KickDown Switch Failed Open
+P0854,1-2 Shift Solenoid Circuit Low Voltage 1-2 Shift Solenoid Circuit Low
+P0855,1-2 Shift Solenoid Circuit High Voltage 1-2 Shift Solenoid Circuit High
+P0856,Torque Reduction Signal Circuit Requested by TCM Torque Reduction Signal Circuit
+P0857,2-3 Shift Solenoid Circuit Low Voltage 2-3 Shift Solenoid Circuit Low
+P0858,2-3 Shift Solenoid Circuit High Voltage 2-3 Shift Solenoid Circuit High
+P0859,Brake Band Apply Solenoid Performance Brake Band Apply Solenoid
+P0860,Brake Band Apply Solenoid Low Voltage Brake Band Apply Solenoid Low
+P0861,Brake Band Apply Solenoid High Voltage Brake Band Apply Solenoid High
+P0862,Torque Converter Clutch Circuit Torque Converter Clutch Circuit
+P0863,Transmission Fluid Life Transmission Fluid Life
+P0864,TCC Stator Temp Switch Circuit Low TCC Stator Temp Switch Circuit Low
+P0865,4WD Low Switch Circuit Electrical 4WD Low Switch Circuit Electrical
+P0866,Throttle Position Signal Input Throttle Position Signal Input
+P0867,Throttle Position Sensor PWM Signal High Throttle Position Sensor PWM Signal
+P0868,Engine Torque Signal High Voltage Engine Torque Signal High Voltage
+P0869,Intake Manifold Runner Control IMRC Solenoid Control Circuit Intake Manifold Runner Control
+P0870,Intake Manifold Runner Control IMRC Solenoid Control Circuit Low Voltage Intake Manifold Runner Control
+P0871,Intake Manifold Runner Control IMRC Solenoid Control Circuit High Voltage Intake Manifold Runner Control
+P0872,Fuel Level Sensor 2 Circuit Low Voltage Fuel Level Sensor 2 Circuit Low
+P0873,Fuel Level Sensor 2 Circuit High Voltage Fuel Level Sensor 2 Circuit High
+P0874,Post Catalyst Fuel Trim System Low Limit Post Catalyst Fuel Trim System
+P0875,Throttle Actuator Control TAC Motor Control Circuit Throttle Actuator Control TAC
+P0876,Control Module Throttle Actuator Position Performance Control Module Throttle Actuator
+P0877,Throttle Actuator Control TAC Module Internal Circuit Throttle Actuator Control TAC
+P0878,Throttle Actuator Control TAC Module Performance Throttle Actuator Control TAC
+P0879,Accelerator Pedal Position APP Sensor 1 Circuit High Voltage Accelerator Pedal Position APP
+P0880,Accelerator Pedal Position APP Sensor 2 Circuit Low Voltage Accelerator Pedal Position APP
+P0881,Accelerator Pedal Position APP Sensor 2 Circuit High Voltage Accelerator Pedal Position APP
+P0882,Throttle Position TP Sensor 1-2 Correlation Throttle Position TP Sensor 1-2
+P0883,Generator L Terminal Circuit High Voltage Generator L Terminal Circuit High
+P0884,ECU Failure ECU Failure
+P0885,Open or TCC PWM Solenoid Valve Circuit Short to Ground Open or TCC PWM Solenoid Valve
+P0886,Heated Oxygen Sensor HO2S Heater Current Monitor Control Circuit Banks 1 and 2 Sensor 1 Heated Oxygen Sensor HO2S
+P0887,Heated Oxygen Sensor HO2S Heated Oxygen Sensor HO2S
+P0888,MAF MAP EGR Actual Measured Air Flow and TP Calculated Air Flow Not Within Range MAF MAP EGR Actual Measured Air Flow
+P0889,Manifold Absolute Pressure MAP Sensor Circuit Intermittent High Voltage Manifold Absolute Pressure MAP
+P0890,MAP Sensor Comparison Too High Baro MAP Sensor Comparison
+P0891,Intake Air Temperature IAT Sensor Circuit Intermittent Low Voltage Intake Air Temperature IAT
+P0892,Intake Resonance Switchover Solenoid Control Circuit Intake Resonance Switchover Solenoid
+P0893,Engine Coolant Temperature ECT Sensor Circuit Intermittent High Voltage Engine Coolant Temperature ECT
+P0894,Engine Coolant Temp Signal Out of Range Low Engine Coolant Temp Signal
+P0895,Throttle Position TP Sensor 1 Circuit Throttle Position TP Sensor 1
+P0896,Throttle Position TP Sensor Circuit Intermittent Low Voltage Throttle Position TP Sensor
+P0897,Heated Oxygen Sensor HO2S Circuit Low Variance Bank 1 Sensor 1 Heated Oxygen Sensor HO2S
+P0898,Heated Oxygen Sensor HO2S Insufficient Switching Bank 1 Sensor 1 Heated Oxygen Sensor HO2S
+P0899,Heated Oxygen Sensor HO2S Lean Sensor 1 Bank 1 Mean Heated Oxygen Sensor HO2S
+P0900,Heated Oxygen Sensor HO2S Rich Sensor 1 Bank 1 Mean Heated Oxygen Sensor HO2S
+P0901,Heated Oxygen Sensor HO2S Bank 1 Sensor 2 Rich or High Voltage Heated Oxygen Sensor HO2S
+P0902,Heated Oxygen Sensor HO2S Transition Time Ratio Bank 1 Sensor 2 Heated Oxygen Sensor HO2S
+P0903,Heated Oxygen Sensor HO2S Bank 1 Sensor 3 Rich or High Voltage Heated Oxygen Sensor HO2S
+P0904,Heated Oxygen Sensor HO2S Cross Counts Bank 1 Sensor 3 Heated Oxygen Sensor HO2S
+P0905,Heated Oxygen Sensor HO2S Transition Time Ratio Bank 2 Sensor 1 Heated Oxygen Sensor HO2S
+P0906,Heated Oxygen Sensor HO2S Lean Bank 2 Sensor 1 Mean Heated Oxygen Sensor HO2S
+P0907,Heated Oxygen Sensor HO2S Rich Bank 2 Sensor 1 Mean Heated Oxygen Sensor HO2S
+P0908,Heated Oxygen Sensor HO2S Bank 2 Sensor 2 Rich or High Voltage Heated Oxygen Sensor HO2S
+P0909,Heated Oxygen Sensor HO2S Cross Counts Bank 2 Sensor 2 Heated Oxygen Sensor HO2S
+P0910,Heated Oxygen Sensor HO2S Bank 2 Sensor 3 Lean System or Low Voltage Heated Oxygen Sensor HO2S
+P0911,Heated Oxygen Sensor HO2S Bank 2 Sensor 3 Rich or High Voltage Heated Oxygen Sensor HO2S
+P0912,Heated Oxygen Sensor HO2S Cross Counts Bank 2 Sensor 3 Heated Oxygen Sensor HO2S
+P0913,Bank Fuel Trim Offset Bank Fuel Trim Offset
+P0914,Engine Oil Temperature Circuit Engine Oil Temperature Circuit
+P0915,EOT Circuit Performance EOT Circuit Performance
+P0916,EOT Sensor Circuit High Voltage EOT Sensor Circuit High Voltage
+P0917,Engine Oil Pressure EOP Switch Circuit Engine Oil Pressure EOP Switch
+P0918,Injector Control Circuit Injector Control Circuit
+P0919,Mass Air Flow Circuit Intermittent High Mass Air Flow Circuit
+P0920,Mass Air Flow Circuit Intermittent Low Mass Air Flow Circuit
+P0921,Injection Pump Calibration Circuit Injection Pump Calibration Circuit
+P0922,Fuel Pump Secondary Circuit Low Fuel Pump Secondary Circuit
+P0923,Supercharger System Overboost Supercharger System
+P0924,Last Test Failed SCC ENTER More Information Last Test Failed
+P0925,Accelerator Pedal Position Sensor 2 Accelerator Pedal Position Sensor
+P0926,Accelerator Pedal Position Sensor 1 Accelerator Pedal Position Sensor
+P0927,Injectors Faulty Wiring Injectors Faulty Wiring
+P0928,Accelerator Pedal Position APP Sensor 1 Circuit Accelerator Pedal Position
+P0929,Accelerator Pedal Position Sensor 1 Circuit Low Voltage Accelerator Pedal Position Sensor
+P0930,Accelerator Pedal Position Sensor 1 Circuit High Voltage Accelerator Pedal Position Sensor
+P0931,Accelerator Pedal Position APP Sensor 2 Circuit Accelerator Pedal Position
+P0932,Accelerator Pedal Position Sensor 2 Circuit Performance Accelerator Pedal Position Sensor
+P0933,Accelerator Pedal Position Sensor 2 Circuit Low Voltage Accelerator Pedal Position Sensor
+P0934,Accelerator Pedal Position Sensor 2 Circuit High Voltage Accelerator Pedal Position Sensor
+P0935,Accelerator Pedal Position Sensor 3 Circuit Accelerator Pedal Position Sensor
+P0936,Accelerator Pedal Position Sensor 3 Circuit Low Voltage Accelerator Pedal Position Sensor
+P0937,Ignitor Circuit Ignitor Circuit
+P0938,Ignition Coil 2 Primary Feedback Circuit Ignition Coil 2 Primary
+P0939,EI System or Ignition Control Extra or Missing EI System or Ignition Control
+P0940,Crank RPM Too Low Crank RPM Too Low
+P0941,CKP Circuit CKP Circuit
+P0942,BM Output High Pulse Detected When GND Cyl 2 BM Output High Pulse Detected
+P0943,BM Output High Pulse Detected When GND Cyl 3 BM Output High Pulse Detected
+P0944,BM Output High Pulse Detected When GND Cyl 5 BM Output High Pulse Detected
+P0945,BM Output High Pulse Detected When GND Cyl 8 BM Output High Pulse Detected
+P0946,Ignition Coil Group 1 Control Circuit Ignition Coil Group 1 Control
+P0947,Ignition Coil Control Circuit Low Voltage Ignition Coil Control Circuit
+P0948,BM Cylinder 2 Not Activated After Transition BM Cylinder 2 Not Activated
+P0949,BM Cylinder 4 Not Activated After Transition BM Cylinder 4 Not Activated
+P0950,BM Cylinder 6 Not Activated After Transition BM Cylinder 6 Not Activated
+P0951,BM 4X Reference Circuit Too Many Pulses BM 4X Reference Circuit Too Many
+P0952,Crankshaft Position CKP Sensor AB Correlation Crankshaft Position CKP Sensor AB
+P0953,BM 24X Reference Circuit High Voltage BM 24X Reference Circuit High
+P0954,BM Cam Pulse to 4X Reference Pulse BM Cam Pulse to 4X Reference
+P0955,Misfire Detected Rough Road Data Unusable Misfire Detected Rough Road
+P0956,Wheel Speed Sensor 1 G Sensor Circuit Performance Wheel Speed Sensor 1 G
+P0957,Wheel Speed Sensor 1 G Sensor Circuit Low Voltage Wheel Speed Sensor 1 G
+P0958,Wheel Speed Sensor 1 G Sensor Circuit Intermittent Wheel Speed Sensor 1 G
+P0959,Wheel Speed Sensor 2 G Sensor Circuit Performance Wheel Speed Sensor 2 G
+P0960,Wheel Speed Sensor 2 G Sensor Circuit Low Voltage Wheel Speed Sensor 2 G
+P0961,Wheel Speed Sensor 2 G Sensor Circuit High Voltage Wheel Speed Sensor 2 G
+P0962,Exhaust Gas Recirculation System Valve 1 Exhaust Gas Recirculation System
+P0963,Exhaust Gas Recirculation EGR Closed Position Performance Exhaust Gas Recirculation EGR
+P0964,Exhaust Gas Recirculation System Valve 3 Exhaust Gas Recirculation System
+P0965,EGR Air Intrusion Exhaust Supply in EGR Valve EGR Air Intrusion Exhaust Supply
+P0966,Intake Manifold Pressure Sensor Circuit Intake Manifold Pressure Sensor
+P0967,EGR Vacuum System Leak EGR Vacuum System Leak
+P0968,Fuel Tank Pressure System Fuel Tank Pressure System
+P0969,Intake Air Low Pressure Switch Circuit High Voltage Intake Air Low Pressure
+P0970,Intake Air High Pressure Switch Circuit High Voltage Intake Air High Pressure
+P0971,Fuel Level Sensor 2 Circuit Performance Fuel Level Sensor 2 Circuit
+P0972,Fuel Level Sensor 2 Circuit Low Voltage Fuel Level Sensor 2 Circuit
+P0973,Evaporative Emission EVAP System Flow During Non-Purge Evaporative Emission EVAP System
+P0974,EVAP Vacuum Switch High Voltage During IGN On EVAP Vacuum Switch High Voltage
+P0975,Barometric Pressure Sensor Performance Barometric Pressure Sensor
+P0976,Cooling Fan Control System Cooling Fan Control System
+P0977,Cooling Fan 1 Control Circuit High Cooling Fan 1 Control Circuit
+P0978,Cooling Fan Speed Sensor Circuit Cooling Fan Speed Sensor Circuit
+P0979,Cooling Fan Speed Output Circuit Cooling Fan Speed Output Circuit
+P0980,Engine Cooling System Performance Engine Cooling System
+P0981,Cooling Fan System Performance Cooling Fan System Performance
+P0982,Start Signal Circuit Start Signal Circuit
+P0983,Vehicle Speed Sensor Circuit Intermittent Vehicle Speed Sensor Circuit
+P0984,Theft Deterrent Fuel Enable Signal Not Received Theft Deterrent Fuel
+P0985,Theft Deterrent Fuel Enable Signal Not Correct Theft Deterrent Fuel
+P0986,Idle Speed Low Idle Air Control IAC System Not Responding Idle Speed Low Idle Air
+P0987,Throttle Control System Backup System Performance Throttle Control System
+P0988,Electronic System Throttle Position Electronic System Throttle Position
+P0989,Electronic Throttle Module Electronic Throttle Module
+P0990,Electronic Throttle Module PCM Communication Electronic Throttle Module PCM
+P0991,Throttle Actuator Control TAC Module Internal Circuit Throttle Actuator Control TAC
+P0992,Minimum Throttle Position Not Learned Minimum Throttle Position Not
+P0993,Heated Windshield Request Problem Heated Windshield Request Problem
+P0994,A/C Low Side Temperature Sensor Failure A/C Low Side Temperature Sensor
+P0995,A/C Evaporator Temp Sensor Circuit High Voltage A/C Evaporator Temp Sensor
+P0996,A/C System Temp Sensor Low Voltage A/C System Temp Sensor Low
+P0997,A/C Request Circuit Low Voltage A/C Request Circuit Low Voltage
+P0998,Air Conditioner A/C Refrigerant Overpressure A/C Disabled Air Conditioner A/C
+P0999,A/C System High Pressure High Temperature A/C System High Pressure High
+P1000,A/C System Performance A/C System Performance
+P1001,A/C Refrigerant Condition Too Low A/C Refrigerant Condition Too Low
+P1002,A/C Clutch Status Circuit Low Voltage A/C Clutch Status Circuit
+P1003,Throttle Valve Position Not Learned During Rest Throttle Valve Position Not
+P1004,Cruise Control Servo Indicates Low Cruise Control Servo Indicates
+P1005,Cruise Control Power Management Mode Cruise Control Power Management
+P1006,Transaxle Not in Drive Cruise Control Disabled Transaxle Not in Drive Cruise
+P1007,Cruise Vacuum Solenoid Cruise Vacuum Solenoid
+P1008,Banking Control Active Cruise Control Disabled Banking Control Active
+P1009,Cruise Servo Brain High During Non-Cruise Cruise Servo Brain High
+P1010,Traction Control Torque Request Circuit Traction Control Torque Request Circuit
+P1011,ASR Active Circuit Low Too Long ASR Active Circuit Low Too Long
+P1012,Stoplamp Switch Circuit Stoplamp Switch Circuit
+P1013,BBV Sensor Circuit High Voltage BBV Sensor Circuit High Voltage
+P1014,BBV Sensor Circuit Low Vacuum BBV Sensor Circuit Low Vacuum
+P1015,Cruise Circuit Low Voltage Carrier Cruise Circuit Low Voltage Carrier
+P1016,Cruise Direction Circuit Low Voltage Cruise Direction Circuit Low Voltage
+P1017,Cruise Control Disabled Cruise Control Disabled
+P1018,Cruise Control Clutch Control Circuit High Cruise Control Clutch Control
+P1019,Engine Retard or Close Retard Detected Engine Retard or Close
+P1020,TCM Internal Watchdog Operation TCM Internal Watchdog Operation
+P1021,Serial Communication Problem with Device 1 Serial Communication Problem with Device 1
+P1022,Knock Sensor KS Module Performance Knock Sensor KS Module Performance
+P1023,IPC Loss of Serial Data IPC Loss of Serial Data
+P1024,Serial Communication Problem with Device 6 Serial Communication Problem with Device 6
+P1025,Serial Communication Problem with Device 8 Serial Communication Problem with Device 8
+P1026,PZM Loss of Serial Data PZM Loss of Serial Data
+P1027,IPM Loss of Serial Data IPM Loss of Serial Data
+P1028,Engine Oil Level Switch Circuit Engine Oil Level Switch Circuit
+P1029,Low Coolant Circuit Low Coolant Circuit
+P1030,Cylinder Select Cylinder Select
+P1031,Customer Snapshot Request Data Available Customer Snapshot Request Data
+P1032,Theft Deterrent Fuel Enable Signal Not Received Theft Deterrent Fuel
+P1033,ECT Pull-Up Resistor ECT Pull-Up Resistor
+P1034,Theft Deterrent Mode Active Theft Deterrent
+P1035,Theft Deterrent Fuel Disable Signal Received Theft Deterrent
+P1036,Ignition 1 Switch Circuit Ignition 1 Switch Circuit
+P1037,PCM Stack Overflow PCM Stack Overflow
+P1038,Generator F Terminal Circuit Generator F Terminal Circuit
+P1039,5 Volt Reference 2 Circuit 5 Volt Reference 2 Circuit
+P1040,Driver 1 Input High Voltage Driver 1 Input High Voltage
+P1041,Vehicle Speed Output Circuit Vehicle Speed Output Circuit
+P1042,Traction Control Delivered Torque Output Circuit Traction Control Delivered Torque
+P1043,Driver 1 Line 7 Driver 1 Line 7
+P1044,Fan 1 Relay Control Circuit Fan 1 Relay Control Circuit
+P1045,Cruise Control Inhibiting Output Circuit Cruise Control Inhibiting Output
+P1046,Driver 2 Line 6 Driver 2 Line 6
+P1047,Cooling Fan Control Circuits Cooling Fan Control Circuits
+P1048,Oil Life Lamp Control Circuit Oil Life Lamp Control Circuit
+P1049,Driver 3 Line 5 Driver 3 Line 5
+P1050,ABS Unit Expected ABS Unit Expected
+P1051,Driver 4 Line 1 Driver 4 Line 1
+P1052,Low Engine Oil Level Lamp Control Circuit Low Engine Oil Level Lamp
+P1053,Engine Hot Lamp Control Circuit Engine Hot Lamp Control Circuit
+P1054,Speedometer Control Circuit Speedometer Control Circuit
+P1055,Driver 5 ECU Failure Driver 5 ECU Failure
+P1056,Driver 5 Line 1 Driver 5 Line 1
+P1057,Driver 5 Line 2 Driver 5 Line 2
+P1058,Driver 5 Line 7 Driver 5 Line 7
+P1059,Delivered Torque Circuit Failure Delivered Torque Circuit Failure
+P1060,Coolant Gauge Circuit Low Voltage Coolant Gauge Circuit Low Voltage
+P1061,Remote Keyless Entry Circuit Low Remote Keyless Entry Circuit Low
+P1062,Transmission Control Module TCM Requested MIL Illumination Transmission Control Module TCM
+P1063,Transmission MIL Request Circuit Transmission MIL Request Circuit
+P1064,Incorrect Shifting Detected TCM Incorrect Shifting Detected TCM
+P1065,TCM Supply Voltage Interrupted TCM Supply Voltage Interrupted
+P1066,Engine Torque Delivered to TCM Signal Engine Torque Delivered to TCM
+P1067,Engine Torque Signal Circuit Engine Torque Signal Circuit
+P1068,Transmission Control Module Checksum Transmission Control Module Checksum
+P1069,Throttle Pedal Position Signal 2000 Throttle Pedal Position Signal 2000
+P1070,Wheel Speed Signal 2000 Wheel Speed Signal 2000
+P1071,Performance Selector Switch Failure Performance Selector Switch Failure
+P1072,TFP Valve Position Switch Circuit TFP Valve Position Switch Circuit
+P1073,Torque Control Torque Control
+P1074,TFP Valve Position Switch Reverse with Drive Ratio TFP Valve Position Switch Reverse
+P1075,TFP Valve Position Switch Drive without Drive Ratio TFP Valve Position Switch Drive
+P1076,Internal Mode Switch No Start Wrong Range Internal Mode Switch No Start
+P1077,Internal Mode Switch Circuit B High Internal Mode Switch Circuit B High
+P1078,Internal Mode Switch Circuit C High Internal Mode Switch Circuit C High
+P1079,Torque Converter Clutch TCC Solenoid Circuit High Voltage Torque Converter Clutch TCC
+P1080,KickDown Switch Circuit KickDown Switch Circuit
+P1081,KickDown Switch Failed Open KickDown Switch Failed Open
+P1082,1-2 Shift Solenoid Circuit Low Voltage 1-2 Shift Solenoid Circuit Low
+P1083,1-2 Shift Solenoid Circuit High Voltage 1-2 Shift Solenoid Circuit High
+P1084,Torque Reduction Signal Circuit Requested by TCM Torque Reduction Signal Circuit
+P1085,2-3 Shift Solenoid Circuit Low Voltage 2-3 Shift Solenoid Circuit Low
+P1086,2-3 Shift Solenoid Circuit High Voltage 2-3 Shift Solenoid Circuit High
+P1087,Brake Band Apply Solenoid Performance Brake Band Apply Solenoid
+P1088,Brake Band Apply Solenoid Low Voltage Brake Band Apply Solenoid Low
+P1089,Brake Band Apply Solenoid High Voltage Brake Band Apply Solenoid High
+P1090,Torque Converter Clutch Circuit Torque Converter Clutch Circuit
+P1091,Transmission Fluid Life Transmission Fluid Life
+P1092,TCC Stator Temp Switch Circuit Low TCC Stator Temp Switch Circuit Low
+P1093,4WD Low Switch Circuit Electrical 4WD Low Switch Circuit Electrical
+P1094,Throttle Position Signal Input Throttle Position Signal Input
+P1095,Throttle Position Sensor PWM Signal High Throttle Position Sensor PWM Signal
+P1096,Engine Torque Signal High Voltage Engine Torque Signal High Voltage
+P1097,Intake Manifold Runner Control IMRC Solenoid Control Circuit Intake Manifold Runner Control
+P1098,Intake Manifold Runner Control IMRC Solenoid Control Circuit Low Voltage Intake Manifold Runner Control
+P1099,Intake Manifold Runner Control IMRC Solenoid Control Circuit High Voltage Intake Manifold Runner Control
+P1100,Fuel Level Sensor 2 Circuit Low Voltage Fuel Level Sensor 2 Circuit Low
+P1101,Fuel Level Sensor 2 Circuit High Voltage Fuel Level Sensor 2 Circuit High
+P1102,Post Catalyst Fuel Trim System Low Limit Post Catalyst Fuel Trim System
+P1103,Throttle Actuator Control TAC Motor Control Circuit Throttle Actuator Control TAC
+P1104,Control Module Throttle Actuator Position Performance Control Module Throttle Actuator
+P1105,Throttle Actuator Control TAC Module Internal Circuit Throttle Actuator Control TAC
+P1106,Throttle Actuator Control TAC Module Performance Throttle Actuator Control TAC
+P1107,Accelerator Pedal Position APP Sensor 1 Circuit High Voltage Accelerator Pedal Position APP
+P1108,Accelerator Pedal Position APP Sensor 2 Circuit Low Voltage Accelerator Pedal Position APP
+P1109,Accelerator Pedal Position APP Sensor 2 Circuit High Voltage Accelerator Pedal Position APP
+P1110,Throttle Position TP Sensor 1-2 Correlation Throttle Position TP Sensor 1-2
+P1111,Generator L Terminal Circuit High Voltage Generator L Terminal Circuit High
+P1112,ECU Failure ECU Failure
+P1113,Open or TCC PWM Solenoid Valve Circuit Short to Ground Open or TCC PWM Solenoid Valve
+P1114,Heated Oxygen Sensor HO2S Heater Current Monitor Control Circuit Banks 1 and 2 Sensor 1 Heated Oxygen Sensor HO2S
+P1115,Heated Oxygen Sensor HO2S Heated Oxygen Sensor HO2S
+P1116,MAF MAP EGR Actual Measured Air Flow and TP Calculated Air Flow Not Within Range MAF MAP EGR Actual Measured Air Flow
+P1117,Manifold Absolute Pressure MAP Sensor Circuit Intermittent High Voltage Manifold Absolute Pressure MAP
+P1118,MAP Sensor Comparison Too High Baro MAP Sensor Comparison
+P1119,Intake Air Temperature IAT Sensor Circuit Intermittent Low Voltage Intake Air Temperature IAT
+P1120,Intake Resonance Switchover Solenoid Control Circuit Intake Resonance Switchover Solenoid
+P1121,Engine Coolant Temperature ECT Sensor Circuit Intermittent High Voltage Engine Coolant Temperature ECT
+P1122,Engine Coolant Temp Signal Out of Range Low Engine Coolant Temp Signal
+P1123,Throttle Position TP Sensor 1 Circuit Throttle Position TP Sensor 1
+P1124,Throttle Position TP Sensor Circuit Intermittent Low Voltage Throttle Position TP Sensor
+P1125,Heated Oxygen Sensor HO2S Circuit Low Variance Bank 1 Sensor 1 Heated Oxygen Sensor HO2S
+P1126,Heated Oxygen Sensor HO2S Insufficient Switching Bank 1 Sensor 1 Heated Oxygen Sensor HO2S
+P1127,Heated Oxygen Sensor HO2S Lean Sensor 1 Bank 1 Mean Heated Oxygen Sensor HO2S
+P1128,Heated Oxygen Sensor HO2S Rich Sensor 1 Bank 1 Mean Heated Oxygen Sensor HO2S
+P1129,Heated Oxygen Sensor HO2S Bank 1 Sensor 2 Rich or High Voltage Heated Oxygen Sensor HO2S
+P1130,Heated Oxygen Sensor HO2S Transition Time Ratio Bank 1 Sensor 2 Heated Oxygen Sensor HO2S
+P1131,Heated Oxygen Sensor HO2S Bank 1 Sensor 3 Rich or High Voltage Heated Oxygen Sensor HO2S
+P1132,Heated Oxygen Sensor HO2S Cross Counts Bank 1 Sensor 3 Heated Oxygen Sensor HO2S
+P1133,Heated Oxygen Sensor HO2S Transition Time Ratio Bank 2 Sensor 1 Heated Oxygen Sensor HO2S
+P1134,Heated Oxygen Sensor HO2S Lean Bank 2 Sensor 1 Mean Heated Oxygen Sensor HO2S
+P1135,Heated Oxygen Sensor HO2S Rich Bank 2 Sensor 1 Mean Heated Oxygen Sensor HO2S
+P1136,Heated Oxygen Sensor HO2S Bank 2 Sensor 2 Rich or High Voltage Heated Oxygen Sensor HO2S
+P1137,Heated Oxygen Sensor HO2S Cross Counts Bank 2 Sensor 2 Heated Oxygen Sensor HO2S
+P1138,Heated Oxygen Sensor HO2S Bank 2 Sensor 3 Lean System or Low Voltage Heated Oxygen Sensor HO2S
+P1139,Heated Oxygen Sensor HO2S Bank 2 Sensor 3 Rich or High Voltage Heated Oxygen Sensor HO2S
+P1140,Heated Oxygen Sensor HO2S Cross Counts Bank 2 Sensor 3 Heated Oxygen Sensor HO2S
+P1141,Bank Fuel Trim Offset Bank Fuel Trim Offset
+P1142,Engine Oil Temperature Circuit Engine Oil Temperature Circuit
+P1143,EOT Circuit Performance EOT Circuit Performance
+P1144,EOT Sensor Circuit High Voltage EOT Sensor Circuit High Voltage
+P1145,Engine Oil Pressure EOP Switch Circuit Engine Oil Pressure EOP Switch
+P1146,Injector Control Circuit Injector Control Circuit
+P1147,Mass Air Flow Circuit Intermittent High Mass Air Flow Circuit
+P1148,Mass Air Flow Circuit Intermittent Low Mass Air Flow Circuit
+P1149,Injection Pump Calibration Circuit Injection Pump Calibration Circuit
+P1150,Fuel Pump Secondary Circuit Low Fuel Pump Secondary Circuit
+P1151,Supercharger System Overboost Supercharger System
+P1152,Last Test Failed SCC ENTER More Information Last Test Failed
+P1153,Accelerator Pedal Position Sensor 2 Accelerator Pedal Position Sensor
+P1154,Accelerator Pedal Position Sensor 1 Accelerator Pedal Position Sensor
+P1155,Injectors Faulty Wiring Injectors Faulty Wiring
+P1156,Accelerator Pedal Position APP Sensor 1 Circuit Accelerator Pedal Position
+P1157,Accelerator Pedal Position Sensor 1 Circuit Low Voltage Accelerator Pedal Position Sensor
+P1158,Accelerator Pedal Position Sensor 1 Circuit High Voltage Accelerator Pedal Position Sensor
+P1159,Accelerator Pedal Position APP Sensor 2 Circuit Accelerator Pedal Position
+P1160,Accelerator Pedal Position Sensor 2 Circuit Performance Accelerator Pedal Position Sensor
+P1161,Accelerator Pedal Position Sensor 2 Circuit Low Voltage Accelerator Pedal Position Sensor
+P1162,Accelerator Pedal Position Sensor 2 Circuit High Voltage Accelerator Pedal Position Sensor
+P1163,Accelerator Pedal Position Sensor 3 Circuit Accelerator Pedal Position Sensor
+P1164,Accelerator Pedal Position Sensor 3 Circuit Low Voltage Accelerator Pedal Position Sensor
+P1165,Ignitor Circuit Ignitor Circuit
+P1166,Ignition Coil 2 Primary Feedback Circuit Ignition Coil 2 Primary
+P1167,EI System or Ignition Control Extra or Missing EI System or Ignition Control
+P1168,Crank RPM Too Low Crank RPM Too Low
+P1169,CKP Circuit CKP Circuit
+P1170,BM Output High Pulse Detected When GND Cyl 2 BM Output High Pulse Detected
+P1171,BM Output High Pulse Detected When GND Cyl 3 BM Output High Pulse Detected
+P1172,BM Output High Pulse Detected When GND Cyl 5 BM Output High Pulse Detected
+P1173,BM Output High Pulse Detected When GND Cyl 8 BM Output High Pulse Detected
+P1174,Ignition Coil Group 1 Control Circuit Ignition Coil Group 1 Control
+P1175,Ignition Coil Control Circuit Low Voltage Ignition Coil Control Circuit
+P1176,BM Cylinder 2 Not Activated After Transition BM Cylinder 2 Not Activated
+P1177,BM Cylinder 4 Not Activated After Transition BM Cylinder 4 Not Activated
+P1178,BM Cylinder 6 Not Activated After Transition BM Cylinder 6 Not Activated
+P1179,BM 4X Reference Circuit Too Many Pulses BM 4X Reference Circuit Too Many
+P1180,Crankshaft Position CKP Sensor AB Correlation Crankshaft Position CKP Sensor AB
+P1181,BM 24X Reference Circuit High Voltage BM 24X Reference Circuit High
+P1182,BM Cam Pulse to 4X Reference Pulse BM Cam Pulse to 4X Reference
+P1183,Misfire Detected Rough Road Data Unusable Misfire Detected Rough Road
+P1184,Wheel Speed Sensor 1 G Sensor Circuit Performance Wheel Speed Sensor 1 G
+P1185,Wheel Speed Sensor 1 G Sensor Circuit Low Voltage Wheel Speed Sensor 1 G
+P1186,Wheel Speed Sensor 1 G Sensor Circuit Intermittent Wheel Speed Sensor 1 G
+P1187,Wheel Speed Sensor 2 G Sensor Circuit Performance Wheel Speed Sensor 2 G
+P1188,Wheel Speed Sensor 2 G Sensor Circuit Low Voltage Wheel Speed Sensor 2 G
+P1189,Wheel Speed Sensor 2 G Sensor Circuit High Voltage Wheel Speed Sensor 2 G
+P1190,Exhaust Gas Recirculation System Valve 1 Exhaust Gas Recirculation System
+P1191,Exhaust Gas Recirculation EGR Closed Position Performance Exhaust Gas Recirculation EGR
+P1192,Exhaust Gas Recirculation System Valve 3 Exhaust Gas Recirculation System
+P1193,EGR Air Intrusion Exhaust Supply in EGR Valve EGR Air Intrusion Exhaust Supply
+P1194,Intake Manifold Pressure Sensor Circuit Intake Manifold Pressure Sensor
+P1195,EGR Vacuum System Leak EGR Vacuum System Leak
+P1196,Fuel Tank Pressure System Fuel Tank Pressure System
+P1197,Intake Air Low Pressure Switch Circuit High Voltage Intake Air Low Pressure
+P1198,Intake Air High Pressure Switch Circuit High Voltage Intake Air High Pressure
+P1199,Fuel Level Sensor 2 Circuit Performance Fuel Level Sensor 2 Circuit
+P1200,Fuel Level Sensor 2 Circuit Low Voltage Fuel Level Sensor 2 Circuit
+P1201,Evaporative Emission EVAP System Flow During Non-Purge Evaporative Emission EVAP System
+P1202,EVAP Vacuum Switch High Voltage During IGN On EVAP Vacuum Switch High Voltage
+P1203,Barometric Pressure Sensor Performance Barometric Pressure Sensor
+P1204,Cooling Fan Control System Cooling Fan Control System
+P1205,Cooling Fan 1 Control Circuit High Cooling Fan 1 Control Circuit
