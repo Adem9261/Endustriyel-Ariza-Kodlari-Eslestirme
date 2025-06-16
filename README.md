@@ -85,8 +85,8 @@ TF-IDF ve Word2Vec modellerinin her birinin ilk 5 benzer metin seçimi alınıp,
 ---
 
 ## 📥 Nasıl Çalıştırılır?
-1. Çalışmayı bilgisayarınıza indirip, arşivden klasöre çıkarıp 'notebooks/Endustriyel_Ariza_Kodlari_Eslestirme.ipynb` dosyasını jupyter notebok da açınız ve tüm hücreleri sırasıyla çalıştırın, sonuçları listelenecektir.
-2. Kendi veri setlerinizin analizini yapmak isterseniz sonraki adımları takip edin.
+1. Çalışmayı bilgisayarınıza indirin ve arşivden çıkarın 'notebooks/Endustriyel_Ariza_Kodlari_Eslestirme.ipynb` dosyasını jupyter notebok da açın ve tüm hücreleri sırasıyla çalıştırın, sonuçları görüntülenecektir.
+2. Kendi verileriniz üzerinde çalışmak isterseniz sonraki adımları takip edin.
 3. `notebooks/`, `models/` klasörü ve `data/` klasörü hazır olmalıdır.
 4. Veri setlerinizi 'data' klasörü içerisine atın, `Endustriyel_Ariza_Kodlari_Eslestirme.ipynb` dosyasında veri seti yükleme kısmında, veri setlerinizin isimlerini doğru şekilde yazın ve birleştirilecek sütun isimlerini doğru şekilde belirtin.
 5. Hücreleri sırayla çalıştırın.
